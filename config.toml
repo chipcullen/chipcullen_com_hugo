@@ -1,4 +1,4 @@
-baseURL = "http://chipcullen.com/"
+baseURL = "https://chipcullen.netlify.com/"
 languageCode = "en-us"
 title = "Chip Cullen | Front End Developer"
 theme = "hugo-paper"
