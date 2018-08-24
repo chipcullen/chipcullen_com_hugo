@@ -1,4 +1,4 @@
-baseURL = "https://chipcullen.com/"
+baseURL = "http://chipcullen.com/"
 languageCode = "en-us"
 title = "Chip Cullen | Front End Developer"
 theme = "hugo-paper"
