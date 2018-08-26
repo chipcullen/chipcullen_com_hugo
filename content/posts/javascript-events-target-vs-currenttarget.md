@@ -3,6 +3,7 @@ title: "JavaScript events: .target vs .currentTarget"
 date: Fri, 27 Apr 2018 16:08:01 +0000
 draft: false
 tags: [General, javascript]
+slug: "javascript-events-target-vs-currenttarget"
 ---
 
 This seemingly comes up for me every six months or so, and I struggle to remember the whys of this. I just thought I'd share this little pointer as a reminder to myself, and hopefully it helps others.

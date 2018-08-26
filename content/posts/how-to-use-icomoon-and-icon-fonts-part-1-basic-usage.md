@@ -3,6 +3,7 @@ title: "How to use IcoMoon and Icon Fonts - Part 1: Basic Usage"
 date: Wed, 31 Jul 2013 13:00:31 +0000
 draft: false
 tags: [icomoon, icons, Tools, tutorial]
+slug: "how-to-use-icomoon-and-icon-fonts-part-1-basic-usage"
 ---
 
 _Note: This post was updated on December 18th, 2013, to use new screenshots that show the recent redesign to the IcoMoon App._
