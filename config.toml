@@ -4,5 +4,6 @@ title = "Chip Cullen | Front End Developer"
 theme = "hugo-paper"
 pygmentsCodeFences = true
 googleAnalytics = "UA-19939997"
+disqusShortname = "chipcullen"
 [permalinks]
   posts = "/:slug/"
