@@ -13,7 +13,7 @@ The above talk was given by [Andy Clarke](http://www.stuffandnonsense.co.uk/) la
 
 He compares this with some of the great advertising campaigns of decades past, which were produced without things like user research or test driven development.
 
-Clarke, who literally [taught me most of what I know](http://stuffandnonsense.co.uk/buy/transcendingcss) about writing CSS, is quite right, I believe.
+Clarke, who literally [taught me most of what I know](https://stuffandnonsense.co.uk/books#transcending) about writing CSS, is quite right, I believe.
 
 If anything, I have a slight issue with his sense of timeline. At the beginning of his talk he mentions how web design today has lost some of the "joyful naivite" of the early days. He should know, he was there.
 

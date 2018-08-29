@@ -64,6 +64,6 @@ Use this _ judiciously_, as it will result in very bloated CSS very quickly. It'
 Thanks to commenter [Scott Nix][3] - he wrapped this up in a [handy snippet for Sublime Text][4]!
 
 [1]: http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#media
-[2]: https://gist.github.com/chippper/5476098
+[2]: https://gist.github.com/chipcullen/5476098
 [3]: http://scottnix.com/
 [4]: https://gist.github.com/scottnix/5479839

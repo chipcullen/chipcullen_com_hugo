@@ -56,7 +56,7 @@ This creates two files:
 
 ## Step 8: if desired, set up config for history mode
 
-See this [example config file](http://bbc-news.github.io/wraith/history.html) for an example.
+See this [example config file](http://bbc-news.github.io/wraith/configs.html#Historyconfig) for an example.
 
 ## Step 9: initiate wraith history to take first set of screenshots
 

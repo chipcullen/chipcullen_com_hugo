@@ -179,4 +179,4 @@ I hope this post will help you make changes to your Wordpress comment form. I&rs
 
 [1]: http://wordpress.org
 [2]: http://codex.wordpress.org/Function_Reference/comment_form
-[3]: http://dev.w3.org/html5/spec/common-input-element-attributes.html#the-placeholder-attribute
+[3]: https://www.w3.org/TR/2011/WD-html5-20110525/common-input-element-attributes.html#the-placeholder-attribute
