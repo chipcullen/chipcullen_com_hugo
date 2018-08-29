@@ -1,18 +1,19 @@
 ---
-title: 'Why three typefaces rule the web, and what you can do about it'
+title: "Why three typefaces rule the web, and what you can do about it"
 date: Wed, 12 Apr 2017 13:15:21 +0000
 draft: false
 tags: [google fonts, typography, Web Typography]
+slug: "why-three-typefaces-rule-the-web"
 ---
 
-Design Systems expert [Nathan Curtis](http://eightshapes.com/nathan-curtis.html)* tweeted this the other day:
+Design Systems expert [Nathan Curtis](http://eightshapes.com/nathan-curtis.html)\* tweeted this the other day:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">With all those typefaces out there, how do my systems clients usually end up with Proxima Nova, Open Sans, or Source Sans Pro?</p>&mdash; Nathan August Curtis (@nathanacurtis) <a href="https://twitter.com/nathanacurtis/status/841964283562987520">March 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This got me thinking - anecdotally, those three typefaces have been the ones primarily used on every project that I've worked on for maybe the last four or five *years*. This very blog is (currently) set in Source Sans Pro. It's impossible to compile statistics on this (or is it?), but it his statement rings true in my experience.
+This got me thinking - anecdotally, those three typefaces have been the ones primarily used on every project that I've worked on for maybe the last four or five _years_. This very blog is (currently) set in Source Sans Pro. It's impossible to compile statistics on this (or is it?), but it his statement rings true in my experience.
 
-*Why* do those three typefaces - Proxima Nova, Open Sans, our Source Sans Pro - seem to rule the web? What are there any pitfalls of using them? What do they have in common? What should we look for in alternatives? What are some example alternatives we can consider?
+_Why_ do those three typefaces - Proxima Nova, Open Sans, our Source Sans Pro - seem to rule the web? What are there any pitfalls of using them? What do they have in common? What should we look for in alternatives? What are some example alternatives we can consider?
 
 <!--more-->
 
@@ -24,10 +25,10 @@ This got me thinking - anecdotally, those three typefaces have been the ones pri
 ## What do these three typefaces have in common?
 
 1. **They're Sans Serifs** - Let's get the obvious out of the way. All three typefaces are sans serifs, which have traditionally been held as the better choice for body copy on digital screens. It's a view that I've long held.
-2. **They offer a wide range of weights** - This is the primary reason I think they are so common in design systems. These are very robust typefaces in that they offer a great many weights, usually with accompanying *italics*. That makes it very easy to build out a whole system with a unified typographic feel.
+2. **They offer a wide range of weights** - This is the primary reason I think they are so common in design systems. These are very robust typefaces in that they offer a great many weights, usually with accompanying _italics_. That makes it very easy to build out a whole system with a unified typographic feel.
 3. **Specifically they offer a very light weight** - I think that visually designers are drawn to very light weights of typefaces because it allows them to make large headlines that still feel elegant. All three of these typefaces provide those weights, and, they look good at larger sizes.
 4. **They're not Helvetica (or, gasp, Arial)** - let's call a spade a spade here - they're not system fonts. But, they're still 'safe' choices that hold up to wide use.
-5. **They look good at body copy and headline sizes** - Regardless of weight, these three choices look nice at both body copy sizes *and* italics. Notice I say "good". I think they're above average for both use cases, but not the *best* for each (I particularly think Proxima Nova is a poor body copy choice). I think a design systems should consider having more than one typeface - one a body copy/interface element typeface, and a 'headline' typeface.
+5. **They look good at body copy and headline sizes** - Regardless of weight, these three choices look nice at both body copy sizes _and_ italics. Notice I say "good". I think they're above average for both use cases, but not the _best_ for each (I particularly think Proxima Nova is a poor body copy choice). I think a design systems should consider having more than one typeface - one a body copy/interface element typeface, and a 'headline' typeface.
 
 ## What should you consider when looking for an alternative?
 
@@ -39,10 +40,10 @@ This got me thinking - anecdotally, those three typefaces have been the ones pri
 
 Depending on your system's needs, I would suggest you look at these typefaces, all available from [Google Fonts](https://fonts.google.com):
 
-* [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans)
-* [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
-* [Nunito](https://fonts.google.com/specimen/Nunito)
-* [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
+- [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans)
+- [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
+- [Nunito](https://fonts.google.com/specimen/Nunito)
+- [Fira Sans](https://fonts.google.com/specimen/Fira+Sans)
 
 ![Merriweather Sans Sample](../images/Screen-Shot-2017-03-31-at-12.26.17-PM.png)
 
@@ -54,11 +55,11 @@ Depending on your system's needs, I would suggest you look at these typefaces, a
 
 ![Nunito Sample](../images/Screen-Shot-2017-03-31-at-12.27.03-PM.png)
 
-3. **[Nunito](https://fonts.google.com/specimen/Nunito)** - Nunito is a typeface that I've only recently discovered. And I like it, a lot. It has a modern, Helvetica-esque proportions, but also has warmth. It has the rounded terminals of Proxima Nova, but  *isn't* Proxima Nova. It comes in wide variety of weights, to boot, and has a very attractive Sans Serif (flat terminal) variation.
+3. **[Nunito](https://fonts.google.com/specimen/Nunito)** - Nunito is a typeface that I've only recently discovered. And I like it, a lot. It has a modern, Helvetica-esque proportions, but also has warmth. It has the rounded terminals of Proxima Nova, but _isn't_ Proxima Nova. It comes in wide variety of weights, to boot, and has a very attractive Sans Serif (flat terminal) variation.
 
 ![Fira Sans Sample](../images/Screen-Shot-2017-03-31-at-12.27.45-PM.png)
 
-4. **[Fira Sans](https://fonts.google.com/specimen/Fira+Sans)** - Fira has an impressive pedigree - it was partially developed by Erik Spiekermann. It was developed for use in a digital UI. It has a very impressive range of widths, with accompanying italics. To my eye, it doesn't fare as well at *large* type sizes (since it was intended for use in UI), but that may not be an issue in your system.
+4. **[Fira Sans](https://fonts.google.com/specimen/Fira+Sans)** - Fira has an impressive pedigree - it was partially developed by Erik Spiekermann. It was developed for use in a digital UI. It has a very impressive range of widths, with accompanying italics. To my eye, it doesn't fare as well at _large_ type sizes (since it was intended for use in UI), but that may not be an issue in your system.
 
 I hope this post helps you recognize why we seem to reach for similar typefaces in systems, and to consider alternatives out there. Have any other typefaces that have worked for you? Leave a comment below!
 

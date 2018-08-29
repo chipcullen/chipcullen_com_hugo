@@ -3,6 +3,7 @@ title: "Leading Ampersands for modifiers in Sass: An anti-pattern"
 date: Fri, 05 Jan 2018 20:07:04 +0000
 draft: false
 tags: [CSS, Sass, scss]
+slug: "leading-ampersands-in-sass-an-anti-pattern"
 ---
 
 For several years now, I've been loving a Sass authoring pattern that looks like this:

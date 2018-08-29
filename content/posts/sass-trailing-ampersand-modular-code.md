@@ -3,6 +3,7 @@ title: "Sass’s trailing ampersand and modular code"
 date: Mon, 02 Dec 2013 14:32:12 +0000
 draft: false
 tags: [SASS, Sass, scss]
+slug: "sass-trailing-ampersand-modular-code"
 ---
 
 I recently learned of a feature of [Sass](http://sass-lang.com) that I think is extremely powerful, and little known about. I’m not even sure if it has a proper name[\*](#footnote), so I’ll make one up and call it the “_insert_ parent selector”. And it can help you deal with exceptions or variations that might make otherwise modular code become unruly.

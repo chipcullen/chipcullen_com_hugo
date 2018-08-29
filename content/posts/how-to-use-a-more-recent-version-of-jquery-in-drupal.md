@@ -3,6 +3,7 @@ title: "How to use a more recent version of jQuery in Drupal (without jQuery Upd
 date: Thu, 15 Aug 2013 13:00:24 +0000
 draft: false
 tags: [Drupal, Drupal, jquery]
+slug: "how-to-use-a-more-recent-version-of-jquery-in-drupal"
 ---
 
 There are many things that I love about Drupal, but they way it incorporates jQuery is not one of them. Drupal 7 core comes with, and is tied to, a particular version of jQuery - 1.4.4. That came out in November of 2010. Since then, from a jQuery perspective, Drupal has been frozen in time.
