@@ -1,9 +1,54 @@
+
+
+
+
 baseURL = "https://chipcullen.com/"
 languageCode = "en-us"
 title = "Chip Cullen | Front End Developer"
-theme = "hugo-paper"
+theme = "hugo-steam-theme"
 pygmentsCodeFences = true
+pygmentsUseClasses=true
 googleAnalytics = "UA-19939997"
 disqusShortname = "chipcullen"
+
+# Number of posts per page
+paginate = 10
+
 [permalinks]
   posts = "/:slug/"
+
+[params]
+	title = "Chip Cullen"
+	subtitle = "Front End Developer"
+	copyright = "Released under the MIT license."
+
+	# You can choose between green, orange, red and blue.
+	themecolor = "orange"
+
+	# Link custom assets relative to /static
+	favicon   = "favicon.ico"
+	customCSS = ["css/syntax.css", "css/customizations.css"]
+	customJS  = []
+
+	# To provide some metadata for search engines and the about section in the footer
+	# feel free to add a few information about you and your website.
+	name = "Chip Cullen"
+	bio = "Front End Developer + Blogger"
+	description = "My personal blog with thoughts on front end developement"
+
+	# Link your social networks (optional)
+	location = ""
+	twitter = "chipcullen"
+	linkedin = ""
+	googleplus = ""
+	facebook = ""
+	instagram = ""
+	github = "chipcullen"
+	gitlab = ""
+	bitbucket = ""
+
+	# Customize or translate the strings
+	keepReadingStr = "Keep reading"
+	backtotopStr = "Back to top"
+	shareStr = "Share"
+	pageNotFoundTitle = "404 - Page not found"
