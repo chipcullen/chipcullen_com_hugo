@@ -1,7 +1,33 @@
-.language-scss {
+.post-content pre code {
   display: block;
   overflow-x: auto;
-  /* padding: 0.5em; */
+
   color: #abb2bf;
-  background: #282c34;
+  background: #272822;
+  line-height: 1.6;
+  white-space: inherit;
+}
+
+.hljs-tag {
+  color: #f92672;
+}
+
+.hljs-selector-class {
+  color: #a6e22e;
+}
+
+.hljs-keyword {
+  color: #66d9ef;
+}
+
+.hljs-string {
+  color: #e6db74;
+}
+
+.hljs-built_in {
+  color: lightblue;
+}
+
+h1.blog-title {
+  margin-bottom: 15px;
 }

@@ -90,7 +90,7 @@ For front end developers, I suggest these sites:
 
 After a couple days of browsing job listings, it can get very confusing, very fast. It can seem like an amorphous blob of things you are trying to track. You need to **keep an organized list of the openings you find.**
 
-<a href="https://docs.google.com/spreadsheets/d/1LO7N0ZUC4Y6GPLfc7gmA8gjMBzDCyGZq3lw-XZZO6R4/edit?usp=sharing"><img src="http://chipcullen.com/wp-content/uploads/2015/07/example-spreadsheet.png" data-sizes="(max-width: 1000px) 100vw, 1000px" srcset="http://chipcullen.com/wp-content/uploads/2015/07/example-spreadsheet-300x79.png 300w, http://chipcullen.com/wp-content/uploads/2015/07/example-spreadsheet.png 1000w" alt="Aw yeah, a spreadsheet!" class="alignnone size-full wp-image-1154" /></a>
+[![Aw yeah, a spreadsheet!](../images/example-spreadsheet.png)](https://docs.google.com/spreadsheets/d/1LO7N0ZUC4Y6GPLfc7gmA8gjMBzDCyGZq3lw-XZZO6R4/edit?usp=sharing)
 
 A [Google Spreadsheet](https://www.google.com/sheets/about/) is perfect for this. Each row would be a lead, with the columns being facets of each. I suggest these columns:
 

@@ -21,8 +21,13 @@ Assuming you're going the HTML5 video route (you are, right?), and you have a UR
 
 You're probably going to want to end up with a video tag that looks like this:
 
-```
-<video src="path/to/file.mp4" autoplay="autoplay" loop="loop" muted="muted" poster="path/to/poster.jpg">
+```html
+<video
+    src="path/to/file.mp4"
+    autoplay="autoplay"
+    loop="loop"
+    muted="muted"
+    poster="path/to/poster.jpg">
 </video>
 ```
 

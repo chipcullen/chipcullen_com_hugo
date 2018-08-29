@@ -3,6 +3,7 @@ title: "How to use IcoMoon and Icon Fonts – Part 2: A Workflow"
 date: Sat, 03 Aug 2013 13:00:34 +0000
 draft: false
 tags: [icomoon, icon fonts, icons, Tools]
+slug: "how-to-use-icomoon-and-icon-fonts-part-2-a-workflow"
 ---
 
 In [part 1](/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/) of this series, I talked about how to get up and running with IcoMoon, generating an icon font, and using it.
