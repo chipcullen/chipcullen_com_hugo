@@ -8,7 +8,7 @@ title = "Chip Cullen | Front End Developer"
 theme = "hugo-steam-theme"
 pygmentsCodeFences = true
 pygmentsUseClasses=true
-googleAnalytics = "UA-19939997"
+googleAnalytics = "UA-19939997-1"
 disqusShortname = "chipcullen"
 
 # Number of posts per page
