@@ -15,7 +15,7 @@ disqusShortname = "chipcullen"
 paginate = 10
 
 [permalinks]
-  posts = "/:slug/"
+  post = "/:slug/"
 
 [params]
 	title = "Chip Cullen"
