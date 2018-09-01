@@ -5,7 +5,7 @@ draft: false
 tags: [General]
 ---
 
-_Note: this post in response to the [Post a Week challenge](http://dailypost.wordpress.com/2011/02/10/topic-what-is-your-favorite-word/) over at wordpress.com_
+_Note: this post in response to the [Post a Week challenge](https://dailypost.wordpress.com/2011/02/10/topic-what-is-your-favorite-word/) over at wordpress.com_
 
 My favorite word is **Octothorp**. What is an octothorp you say?
 

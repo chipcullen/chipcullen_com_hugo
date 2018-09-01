@@ -45,5 +45,5 @@ This is all that needed to be added to the CSS (as Sass):
 
 You can see it working here:
 
-<p data-height="268" data-theme-id="0" data-slug-hash="GpWmGK" data-default-tab="result" data-user="chipcullen" class='codepen'>See the Pen <a href='http://codepen.io/chipcullen/pen/GpWmGK/'>Smart Breadcrumbs with CSS :only-child</a> by Chip Cullen (<a href='http://codepen.io/chipcullen'>@chipcullen</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="GpWmGK" data-default-tab="result" data-user="chipcullen" class='codepen'>See the Pen <a href='https://codepen.io/chipcullen/pen/GpWmGK/'>Smart Breadcrumbs with CSS :only-child</a> by Chip Cullen (<a href='https://codepen.io/chipcullen'>@chipcullen</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

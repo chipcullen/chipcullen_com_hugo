@@ -29,4 +29,4 @@ What can this do for you? Well, for one thing, you can make pretty [sweet spirog
 ![Another colorful spirograph](../images/Screen-shot-2011-04-08-at-2.37.58-PM.png)
 
 [1]: https://helpx.adobe.com/illustrator/using/rotating-reflecting-objects.html#rotate_an_object_by_a_specific_angle
-[2]: http://veerle.duoh.com/design/article/illustrator_full_spectrum_spirograph
+[2]: https://veerle.duoh.com/design/article/illustrator_full_spectrum_spirograph

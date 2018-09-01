@@ -5,7 +5,7 @@ draft: false
 tags: [Tools]
 ---
 
-I've become a huge, huge fan of [icon fonts](http://alistapart.com/article/the-era-of-symbol-fonts) lately, for reasons well [enumerated elsewhere](http://css-tricks.com/examples/IconFont/).
+I've become a huge, huge fan of [icon fonts](https://alistapart.com/article/the-era-of-symbol-fonts) lately, for reasons well [enumerated elsewhere](https://css-tricks.com/examples/IconFont/).
 
 However, in learning how to use them, I had to rethink how I wrote markup. For years, I've been using background images via CSS for the kinds of visual elements that I now wanted to use an icon font for. That meant actually inserting HTML elements for the icons - and _not_ relying on CSS alone. I would need to insert something like:
 
@@ -21,7 +21,7 @@ What I discovered is that you _can_ insert an icon, using an icon font, purely i
 
 <!--more-->
 
-Let's say you've already generated your own icon font via a service like [IcoMoon.io](http://icomoon.io/app/). Let's also say the font is named "icon-font" or something else. When you download your font, you get an example page with all of the unicode characters that correspond to icons in your font.
+Let's say you've already generated your own icon font via a service like [IcoMoon.io](https://icomoon.io/app/). Let's also say the font is named "icon-font" or something else. When you download your font, you get an example page with all of the unicode characters that correspond to icons in your font.
 
 The unicode characters look like <code>&amp;#xe002;</code>. When generating a font via something like IcoMoon, these characters will be particular to your own font.
 
@@ -45,7 +45,7 @@ Let's say you have a link in your navigation to "/about" and you want an icon to
 a[href*="about"]
 ```
 
-Then insert the icon via [:before](http://caniuse.com/#search=before) -
+Then insert the icon via [:before](https://caniuse.com/#search=before) -
 
 ```css
 a[href*="about"]:before {

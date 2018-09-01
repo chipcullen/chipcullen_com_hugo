@@ -10,7 +10,7 @@ _Note: This post was updated on December 18th, 2013, to use new screenshots that
 
 I've become a huge fan of [using icon fonts recently](/using-icons-from-icon-fonts-directly-in-css/). I love the fact that graphics elements that are implemented this way are vector based & stylable with CSS. It makes them really easy and flexible to work with.
 
-One of the things that you will have to confront, though, is how to actually _get_ an icon font that you can use. That is where [IcoMoon](http://icomoon.io) comes in. It is an online service that lets you **generate a _custom-built_ icon font**, using icons that are either open licensed or for-pay.
+One of the things that you will have to confront, though, is how to actually _get_ an icon font that you can use. That is where [IcoMoon](https://icomoon.io) comes in. It is an online service that lets you **generate a _custom-built_ icon font**, using icons that are either open licensed or for-pay.
 
 I've used IcoMoon on a couple of projects lately, and wanted to share what I've learned. I'm going to break this into three seperate posts:
 
@@ -26,7 +26,7 @@ These articles are intended for front end developers, or anyone who is in the bu
 
 ### Assumptions
 
-I'm going to assume that you know how to write HTML and CSS to a fairly high degree. The concept of [attribute selectors](http://css-tricks.com/attribute-selectors/) is not foreign to you.
+I'm going to assume that you know how to write HTML and CSS to a fairly high degree. The concept of [attribute selectors](https://css-tricks.com/attribute-selectors/) is not foreign to you.
 
 ### What I won't cover
 

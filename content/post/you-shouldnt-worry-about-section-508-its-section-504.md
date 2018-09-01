@@ -20,7 +20,7 @@ However, there is a much better chance that **you may need to comply with Sectio
 
 Yes. [Section 504](https://www.ada.gov/cguide.htm#anchor65610).
 
-Section 504 is 508's lesser known, but much more broadly applicable sibling. And, it [has teeth](http://idioms.thefreedictionary.com/have+teeth).
+Section 504 is 508's lesser known, but much more broadly applicable sibling. And, it [has teeth](https://idioms.thefreedictionary.com/have+teeth).
 
 Section 504 states, in part, that:
 
@@ -43,7 +43,7 @@ So, if your organization has received _any_ federal money, at _any point_, you c
 That could mean organizations such as:
 
 - Universities that receive federal research grants (which is most of them)
-- A business that receives an [SBA](http://sba.gov) loan
+- A business that receives an [SBA](https://sba.gov) loan
 - A non-profit that depends on grant money to perform its work
 
 Unlike 508, Section 504 doesn't contain specifics on what it means to be accessible. It just states that people with disabilities cannot be barred from benefiting from your service.

@@ -6,7 +6,7 @@ tags: [google fonts, typography, Web Typography]
 slug: "why-three-typefaces-rule-the-web"
 ---
 
-Design Systems expert [Nathan Curtis](http://eightshapes.com/nathan-curtis.html)\* tweeted this the other day:
+Design Systems expert [Nathan Curtis](https://eightshapes.com/nathan-curtis.html)\* tweeted this the other day:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">With all those typefaces out there, how do my systems clients usually end up with Proxima Nova, Open Sans, or Source Sans Pro?</p>&mdash; Nathan August Curtis (@nathanacurtis) <a href="https://twitter.com/nathanacurtis/status/841964283562987520">March 15, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

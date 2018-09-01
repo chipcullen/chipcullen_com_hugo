@@ -6,7 +6,7 @@ tags: [SASS, Sass, scss]
 slug: "sass-trailing-ampersand-modular-code"
 ---
 
-I recently learned of a feature of [Sass](http://sass-lang.com) that I think is extremely powerful, and little known about. I’m not even sure if it has a proper name[\*](#footnote), so I’ll make one up and call it the “_insert_ parent selector”. And it can help you deal with exceptions or variations that might make otherwise modular code become unruly.
+I recently learned of a feature of [Sass](https://sass-lang.com) that I think is extremely powerful, and little known about. I’m not even sure if it has a proper name[\*](#footnote), so I’ll make one up and call it the “_insert_ parent selector”. And it can help you deal with exceptions or variations that might make otherwise modular code become unruly.
 
 And all it comes down to is a trailing ampersand - “&”.
 
@@ -73,9 +73,9 @@ main .search-form { … }
 
 That is **very** powerful. This allows you to truly create modular chunks of code that are really easy to manage.
 
-Think of the possibilities - use [Modernizr](http://modernizr.com)? Now it is really easy to keep variations based on Modernizr-supplied body classes, e.g. `.no-svg &`.
+Think of the possibilities - use [Modernizr](https://modernizr.com)? Now it is really easy to keep variations based on Modernizr-supplied body classes, e.g. `.no-svg &`.
 
-Use the [HTML5 Boilerplate](http://html5boilerplate.com) trick of attaching IE classes to the root HTML element? Ditto for `.ie8 &`.
+Use the [HTML5 Boilerplate](https://html5boilerplate.com) trick of attaching IE classes to the root HTML element? Ditto for `.ie8 &`.
 
 There are a few rules that I’ve been able to figure out around the “insert parent selector”:
 
@@ -136,7 +136,7 @@ Will still compile to the same thing:
 }
 ```
 
-It will also work as expected within an [extend directive](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend):
+It will also work as expected within an [extend directive](https://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend):
 
 ```scss
 %testextend {
@@ -157,7 +157,7 @@ I only learned about this feature of Sass recently, while I was mid-project. Bas
 
 Further reading:
 
-- [The ampersand & a killer Sass feature](http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/) by Joe Oliveira.
-- [Referencing Parent Selectors using the ampersand (&) character](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand) by Adam Stacoviak
+- [The ampersand & a killer Sass feature](https://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/) by Joe Oliveira.
+- [Referencing Parent Selectors using the ampersand (&) character](https://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand) by Adam Stacoviak
 
 - As far as I can tell, it’s only been referred to as “a trailing ampersand”, which isn’t that fun of a name.

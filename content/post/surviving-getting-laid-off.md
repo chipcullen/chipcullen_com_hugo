@@ -57,7 +57,7 @@ Browse your library's shelves for something that grabs your attention. Do a sear
 
 If you're a front end developer like me, you'll have no shortage of methodologies, frameworks, and technologies to try and learn. What about skills that are tangential to your work - Excel, anyone?
 
-I took advantage of a [free trial at a video instruction site](http://lynda.com/revolutions), and learned a lot of next-level JavaScript that I wouldn't have had the chance to learn about otherwise.
+I took advantage of a [free trial at a video instruction site](https://lynda.com/revolutions), and learned a lot of next-level JavaScript that I wouldn't have had the chance to learn about otherwise.
 
 ## Maintain your routine as much as possible
 

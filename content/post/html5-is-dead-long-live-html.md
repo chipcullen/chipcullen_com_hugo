@@ -33,5 +33,5 @@ Validation is another concern - how will we be able to validate against a moving
 
 Did you notice? No version number. All hail HTML.
 
-[1]: http://blog.whatwg.org/html-is-the-new-html5
-[2]: http://wiki.whatwg.org/wiki/FAQ#What_does_.22Living_Standard.22_mean.3F
+[1]: https://blog.whatwg.org/html-is-the-new-html5
+[2]: https://wiki.whatwg.org/wiki/FAQ#What_does_.22Living_Standard.22_mean.3F

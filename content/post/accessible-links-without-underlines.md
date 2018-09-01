@@ -23,16 +23,16 @@ Contrast will be what makes a link look different enough from the text around it
 
 ## How much contrast?
 
-**3:1**, [according to the WCAG 2.0 standard](http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G183).
+**3:1**, [according to the WCAG 2.0 standard](https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G183).
 
 ## How do I check?
 
-There are quite a few contrast checkers out on the web. My personal favorite is the [Contrast Ratio by Lea Verou](http://leaverou.github.io/contrast-ratio/). It (and most other tools out there) only compare two colors, so there will be some manual work involved checking the three colors against each other.
+There are quite a few contrast checkers out on the web. My personal favorite is the [Contrast Ratio by Lea Verou](https://leaverou.github.io/contrast-ratio/). It (and most other tools out there) only compare two colors, so there will be some manual work involved checking the three colors against each other.
 
 **You need to compare your link color to your regular text color, and make sure the contrast value is above 3:1.**
 
 Over and above that you need to make sure both your link and text colors provide sufficient **contrast from the background color**, (usually 4.5:1), depending on the size of your type.
 
-[See the WCAG 2.0 standard on background/foreground contrast.](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast)
+[See the WCAG 2.0 standard on background/foreground contrast.](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast)
 
-## Special Thanks Thanks to [Dennis Lembree](http://www.dennislembree.com/) for spot checking this post.
+## Special Thanks Thanks to [Dennis Lembree](https://www.dennislembree.com/) for spot checking this post.

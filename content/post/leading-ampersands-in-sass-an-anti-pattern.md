@@ -60,7 +60,7 @@ Which is hard to grok.
 
 ## Sourcemaps can be borked
 
-Also, when you have a long set of styles like this, your [sourcemaps](http://thesassway.com/intermediate/using-source-maps-with-sass) aren't much use when inspecting styles in dev tools. They'll point to the line of the root selector, even if your declared style is waaaaaay down the file. (Well, this is my experience. I may have a faulty setup.)
+Also, when you have a long set of styles like this, your [sourcemaps](https://thesassway.com/intermediate/using-source-maps-with-sass) aren't much use when inspecting styles in dev tools. They'll point to the line of the root selector, even if your declared style is waaaaaay down the file. (Well, this is my experience. I may have a faulty setup.)
 
 ## Finding a desired class in your source code
 

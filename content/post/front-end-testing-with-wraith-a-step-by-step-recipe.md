@@ -7,7 +7,7 @@ tags: [css, testing, Tools, wraith]
 
 I had occasion to finally get to one of my goals from last year - and that was to introduce some testing to my front end development.
 
-My goal was to have a way to have a before/after visual regression test. The open source [Wraith](http://bbc-news.github.io/wraith/index.html) project, from the BBC, fits the bill wonderfully.
+My goal was to have a way to have a before/after visual regression test. The open source [Wraith](https://bbc-news.github.io/wraith/index.html) project, from the BBC, fits the bill wonderfully.
 
 This post is merely meant to be a step-by-step procedure to get Wraith up and running. I'm not going to provide any context to what each step means.
 
@@ -15,7 +15,7 @@ First off, this post assumes that you're running Mac OS X, and already have Ruby
 
 <!--more-->
 
-## Step 1: install [home brew](http://brew.sh/) (if you don't already have it)
+## Step 1: install [home brew](https://brew.sh/) (if you don't already have it)
 
 Open a terminal and enter this:
 
@@ -56,13 +56,13 @@ This creates two files:
 
 ## Step 8: if desired, set up config for history mode
 
-See this [example config file](http://bbc-news.github.io/wraith/configs.html#Historyconfig) for an example.
+See this [example config file](https://bbc-news.github.io/wraith/configs.html#Historyconfig) for an example.
 
 ## Step 9: initiate wraith history to take first set of screenshots
 
 `wraith history configs/config.yaml`
 
-If you get "unable to find config" errors, [check the YAML syntax](http://www.yamllint.com/).
+If you get "unable to find config" errors, [check the YAML syntax](https://www.yamllint.com/).
 
 <hr />
 ## step 10: do development (or, switch branches)

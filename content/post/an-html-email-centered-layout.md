@@ -17,7 +17,7 @@ So, I basically wanted:
 
 After much trial and error, I came up with this starting point. Basically, it relies on all of the HTML/CSS tricks to achieve a centered layout, all piled on top of each other:
 
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html><head><title>email Title</title></head>
     <body style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"><table width="100%" border="0" cellspacing="10" cellpadding="0" class="wrapper"><tr><td  align="center" valign="top" style="text-align:center;"><table border="0" cellspacing="0" cellpadding="10" class="main" style="text-align: left; margin-left: auto; margin-right: auto;"  width="600">
     <!-- email contents go here -->
@@ -31,6 +31,6 @@ You have:
 - `margin: 0 auto;` via inline CSS
 - `text-align:center;` on a parent element with `text-align: left;` on children. And those are applied inline. Fun times.
 
-This has been tested and works in AOL, Mail.app, Gmail, iOS, Lotus Notes 8 & 8.5, Outlook 2000, 2002, 2003, 2007, 2010, Thunderbird & Yahoo Mail. I tested this using <a href="http://litmus.com/" target="_blank">Litmus</a> (which rocks!).
+This has been tested and works in AOL, Mail.app, Gmail, iOS, Lotus Notes 8 & 8.5, Outlook 2000, 2002, 2003, 2007, 2010, Thunderbird & Yahoo Mail. I tested this using <a href="https://litmus.com/" target="_blank">Litmus</a> (which rocks!).
 
 I would love to hear if this helps anyone else - leave a comment below if you use this, or if you run into any issues.

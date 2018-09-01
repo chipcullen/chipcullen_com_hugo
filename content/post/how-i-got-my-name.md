@@ -7,7 +7,7 @@ tags: [General]
 
 This post is in response to the post a day challenge over at wordpress.com:
 
-http://dailypost.wordpress.com/2011/03/28/do-you-prefer-talking-or-text-messaging/
+https://dailypost.wordpress.com/2011/03/28/do-you-prefer-talking-or-text-messaging/
 
 Most people can guess that my real name isn't Chip. It is indeed a nickname, though I hardly ever think of myself by my legal name.
 

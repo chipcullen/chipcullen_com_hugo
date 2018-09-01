@@ -80,10 +80,10 @@ For front end developers, I suggest these sites:
 
 - [Authentic Jobs](https://authenticjobs.com/)
 - [We Work Remotely](https://weworkremotely.com/)
-- [Codepen Jobs](http://codepen.io/jobs)
-- [LinkedIn](http://linkedin.com)
+- [Codepen Jobs](https://codepen.io/jobs)
+- [LinkedIn](https://linkedin.com)
 - [Jobspresso](https://jobspresso.co/)
-- [Stack Overflow Careers](http://careers.stackoverflow.com/jobs)
+- [Stack Overflow Careers](https://careers.stackoverflow.com/jobs)
 - [GitHub Jobs](https://jobs.github.com/positions)
 
 ## Keep an organized list of jobs you find and apply to

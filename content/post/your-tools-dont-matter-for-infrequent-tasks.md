@@ -7,7 +7,7 @@ tags: [productivity, Tools, wireframes, work]
 
 I had to start a wireframe for a new project today. Easy enough, right? I've built a number of them before.
 
-But first - what tool should I use? All the cool kids are using Keynote these days, though a good argument for <a href="http://www.smashingmagazine.com/2011/01/17/productive-web-design-with-adobe-illustrator/">Illustrator was made the other day</a>.
+But first - what tool should I use? All the cool kids are using Keynote these days, though a good argument for <a href="https://www.smashingmagazine.com/2011/01/17/productive-web-design-with-adobe-illustrator/">Illustrator was made the other day</a>.
 
 I ended up going with Illustrator - mostly because of the above mentioned article. I spent hours obsessing over symbols, styles, grids lines, and preferences.
 

@@ -5,7 +5,7 @@ draft: false
 tags: [General, music, rusted root, work]
 ---
 
-Last night I went to the local county fair mainly to see the main entertainment act: <a href="http://rustedroot.com/">Rusted Root</a>.
+Last night I went to the local county fair mainly to see the main entertainment act: <a href="https://rustedroot.com/">Rusted Root</a>.
 
 If you don't know who Rusted Root are - they are a very eclectic sounding, percussion driven band that tends to have a very, um, peace loving fan base. They had a couple hits in the late 90's - most notably, "Send me on my way".
 

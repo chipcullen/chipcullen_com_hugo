@@ -46,4 +46,4 @@ You can simply enter
 
 <code>gca</code>
 
-Faster, no? Please note, this was based on information I found over <a href="http://gitimmersion.com/lab_11.html">at Git Immersion</a>, but I've distilled it for Mac OS X users, and added a few more aliases of my own.
+Faster, no? Please note, this was based on information I found over <a href="https://gitimmersion.com/lab_11.html">at Git Immersion</a>, but I've distilled it for Mac OS X users, and added a few more aliases of my own.

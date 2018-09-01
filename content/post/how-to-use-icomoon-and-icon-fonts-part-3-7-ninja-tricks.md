@@ -103,7 +103,7 @@ All we are doing is changing the content of the data-icon attribute, but we need
 
 ## Ninja Trick 7: Get your SASS on
 
-This doesn't really have anything to do with IcoMoon specifically, but rather implementation of an icon font. As I [covered previously](/how-to-use-icomoon-and-icon-fonts-part-2-a-workflow/), there are some ways to use the power of [SASS](http://sass-lang.com/) to make using icons really easy.
+This doesn't really have anything to do with IcoMoon specifically, but rather implementation of an icon font. As I [covered previously](/how-to-use-icomoon-and-icon-fonts-part-2-a-workflow/), there are some ways to use the power of [SASS](https://sass-lang.com/) to make using icons really easy.
 
 I've taken that even further and created a **['power duo' of an extendable and a mixin](https://gist.github.com/chipcullen/6157025)** that you can use to easily add icons via CSS and keep your final code as lean as possible.
 

@@ -177,6 +177,6 @@ Just put that in your functions.php and uncomment the line with the field you wa
 
 I hope this post will help you make changes to your Wordpress comment form. I&rsquo;ve tried to be comprehensive and provide context, so sorry it&rsquo;s a little long. If you use these techniques - I&rsquo;d love to hear about it in the comments.
 
-[1]: http://wordpress.org
-[2]: http://codex.wordpress.org/Function_Reference/comment_form
+[1]: https://wordpress.org
+[2]: https://codex.wordpress.org/Function_Reference/comment_form
 [3]: https://www.w3.org/TR/2011/WD-html5-20110525/common-input-element-attributes.html#the-placeholder-attribute

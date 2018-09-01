@@ -33,9 +33,9 @@ Some assumptions I&rsquo;m going to make up front:
 
 To achieve this, you will need a tasty cocktail of (mostly _free_) technologies that makes this easy. You need four things:
 
-- A copy of Wordpress - [http://wordpress.org][1]
-- A Dropbox account, along with the desktop app - [http://dropbox.com][2]
-- MAMP - [http://mamp.info][3]
+- A copy of Wordpress - [https://wordpress.org][1]
+- A Dropbox account, along with the desktop app - [https://dropbox.com][2]
+- MAMP - [https://mamp.info][3]
 - A database that is hosted somewhere offsite - any decent webhost should offer mySQL databases and phpMyAdmin.
 
 ### Wordpress
@@ -54,7 +54,7 @@ Once you are set up, _drag your Wordpress directory into your Dropbox directory_
 
 [MAMP][3] is an indispensable utility that allows you to easily run a server environment on your computer. It lets you set up things like mySQL and PHP without having to deal with the command line.
 
-This won&rsquo;t be a tutorial on [MAMP][3] (<a href="http://www.youtube.com/watch?v=EJFmogQVG8c">check out one here</a>), but once you have it up and running, you are ready to run Wordpress.
+This won&rsquo;t be a tutorial on [MAMP][3] (<a href="https://www.youtube.com/watch?v=EJFmogQVG8c">check out one here</a>), but once you have it up and running, you are ready to run Wordpress.
 
 Here is the magic part: **you can run a Wordpress instance from _within_ a Dropbox folder**.
 
@@ -81,7 +81,7 @@ In you Wordpress directory, you will need to adjust the wp-config-sample.php fil
 
 Now you&rsquo;re ready to start working on your Wordpress site. You will need to launch it first, so open your browser and go to:
 
-[http://localhost:8888][4]
+[https://localhost:8888][4]
 
 That URL basically points to your own machine (localhost), while using MAMP's port, 8888. You should see the Wordpress set up screen.
 
@@ -104,7 +104,7 @@ When you have MAMP up and running on the second computer, point its Apache prefe
 
 Now, you will _literally have the same site_ when you go to
 
-[http://localhost:8888][4]
+[https://localhost:8888][4]
 
 on your second computer. Now you can make updates to your theme(s), add plugins, create content, etc., and everything will stay in sync when you switch between computers!
 
@@ -126,7 +126,7 @@ I don&rsquo;t see any reason why this idea wouldn&rsquo;t work with Drupal. This
 
 I hope this tutorial helps you create a better workflow for working on a Wordpress site from multiple locations. I would love to hear how this helps people - so please, leave a comment!
 
-[1]: http://wordpress.org
-[2]: http://dropbox.com
-[3]: http://mamp.info
-[4]: http://localhost:8888
+[1]: https://wordpress.org
+[2]: https://dropbox.com
+[3]: https://mamp.info
+[4]: https://localhost:8888

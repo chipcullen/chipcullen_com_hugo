@@ -5,7 +5,7 @@ draft: false
 tags: [blog, jeremy keith, Links]
 ---
 
-[Adactio: Journal—A brief list of false dichotomies](http://adactio.com/journal/1714/?skin=default).
+[Adactio: Journal—A brief list of false dichotomies](https://adactio.com/journal/1714/?skin=default).
 
 A really interesting article from the ever brilliant Jeremy Keith. He attacks three dichotomies that persist on the web as being not really that clear cut:
 

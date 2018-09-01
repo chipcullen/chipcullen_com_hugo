@@ -36,7 +36,7 @@ You can realize that SVGs are just this:
 </svg>
 ```
 
-Those child elements can have classes and ID’s applied to them. You can style them (to a certain extent) with CSS. You can manipulate them with JavaScript. Heck, [you can even use CSS animations on them](http://codepen.io/chippper/full/vBxEm).
+Those child elements can have classes and ID’s applied to them. You can style them (to a certain extent) with CSS. You can manipulate them with JavaScript. Heck, [you can even use CSS animations on them](https://codepen.io/chippper/full/vBxEm).
 
 ## Good job, welcome to 2003
 

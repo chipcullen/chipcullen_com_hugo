@@ -26,7 +26,7 @@ You should write:
 <p style="font-weight: bold; font-size: 1em; line-height: 1.4em; font-family: Georgia,serif;">HTML e-mail REALLY sucks!</p>
 ```
 
-And this is generally good practice. Services out there like <a href="http://getfractal.com" target="_blank">Fractal</a> will pick up on this when they run through your HTML.
+And this is generally good practice. Services out there like <a href="https://getfractal.com" target="_blank">Fractal</a> will pick up on this when they run through your HTML.
 
 ### Except when it comes to borders!
 
@@ -54,4 +54,4 @@ If you need your table cell to have a background color, use both the inline styl
 
 The last bit of code there worked as expected in 17 out of 18 clients that I checked (the odd one out was the BlackBerry Curve, which didn't seem to like borders at all). It even works in Outlook 2007 and 2010!
 
-Also, check out [this good collection of tips when it comes to coding HTML emails](http://www.campaignmonitor.com/design-guidelines/).
+Also, check out [this good collection of tips when it comes to coding HTML emails](https://www.campaignmonitor.com/design-guidelines/).

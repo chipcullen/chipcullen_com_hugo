@@ -6,9 +6,9 @@ tags: [design, process, starting, Web Design]
 slug: "where-to-begin"
 ---
 
-_Editor's note: This blog post is a written version of a talk that I gave at the [UX Bar Camp DC 2015](http://chipcullen.github.io/where-to-begin/#/)._
+_Editor's note: This blog post is a written version of a talk that I gave at the [UX Bar Camp DC 2015](https://chipcullen.github.io/where-to-begin/#/)._
 
-Visual Design, which, despite my [background](http://stamps.umich.edu/) in it, often feels like the hardest part of an overall web design project for me. By "Visual Design" I'm referring to establishing look, feel, texture color, etc. So much of it _seems_ objective and hard to judge. There aren't arbitrary boundaries that can easily be evaluated against.
+Visual Design, which, despite my [background](https://stamps.umich.edu/) in it, often feels like the hardest part of an overall web design project for me. By "Visual Design" I'm referring to establishing look, feel, texture color, etc. So much of it _seems_ objective and hard to judge. There aren't arbitrary boundaries that can easily be evaluated against.
 
 This is not another "blah blah - first design" argument. This part of the process is independent of research, testing, business goals, discovery, etc. This is purely the moment of when you crack open a design document - what do you do?
 
@@ -40,7 +40,7 @@ If you choose a paragraph typeface, other accent typefaces are easier to narrow 
 
 When considering type _size_, you can bring all kinds of data points- what is your audience demographic? Does that dictate a minimum type size? Where will this be seen? Do you need a responsive scale (hint: probably)?
 
-With a type size in mind, you can work out things like how big columns need to be in order to accommodate your text while maintaining [optimal line lengths](http://css-tricks.com/bookmarklet-colorize-text-45-75-characters-line-length-testing/). This way, you can start working on layouts with an informed starting point. I personally feel it's actually better to build a layout that accommodates good body copy, then to make body copy 'fit within' a layout. Keeping type size and line lengths in mind also let you establish the upper bounds of your design.
+With a type size in mind, you can work out things like how big columns need to be in order to accommodate your text while maintaining [optimal line lengths](https://css-tricks.com/bookmarklet-colorize-text-45-75-characters-line-length-testing/). This way, you can start working on layouts with an informed starting point. I personally feel it's actually better to build a layout that accommodates good body copy, then to make body copy 'fit within' a layout. Keeping type size and line lengths in mind also let you establish the upper bounds of your design.
 
 Color choices can also be driven by this decision - if you've settled on a lighter weight typeface, you will probably have to favor a more high-contrast color palette to maintain readability.
 
@@ -48,4 +48,4 @@ This is not a permanent decision. I just find its a reliable starting point to b
 
 ## A Closing plug for the Font Combinator
 
-Looking back at writing the [Font Combinator](http://font-combinator.com) - this line of reasoning is a big reason I created it. I didn't think through it this way at the time. When I start visual designs I actually do start here a lot.
+Looking back at writing the [Font Combinator](https://font-combinator.com) - this line of reasoning is a big reason I created it. I didn't think through it this way at the time. When I start visual designs I actually do start here a lot.

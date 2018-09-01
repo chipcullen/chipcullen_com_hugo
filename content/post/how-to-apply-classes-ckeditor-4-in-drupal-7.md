@@ -20,7 +20,7 @@ After an afternoon of experimentation, I found out you need two files added to y
 
 <!--more-->
 
-I'm going to assume that you already have the [CKEditor module](https://drupal.org/project/ckeditor) up and running, and the [CKEditor library](http://ckeditor.com/) itself has been installed in sites/all/libraries.
+I'm going to assume that you already have the [CKEditor module](https://drupal.org/project/ckeditor) up and running, and the [CKEditor library](https://ckeditor.com/) itself has been installed in sites/all/libraries.
 
 ## Adding new style options to CKEditor
 
