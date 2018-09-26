@@ -1,3 +1,5 @@
 <header>
 {{ partial "svg/fox-burst.svg" . }}
 </header>
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{ $style.Permalink }}
