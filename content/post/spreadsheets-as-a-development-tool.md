@@ -1,6 +1,6 @@
 ---
 title: "The unsung develpment tool: Spreadsheets"
-date: Thu, 25 Oct 2018 20:51:40 +0000
+date: Sat, 03 Nov 2018 07:00:40 +0000
 draft: false
 tags: [General]
 ---
