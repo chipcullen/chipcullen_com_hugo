@@ -1,0 +1,14 @@
+<article class="post-summary">
+  <header>
+    <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <div class="post-meta"><time datetime="{{ .Date.Format "02 January 2006" }}">{{ .Date.Format "January 2, 2006" }}</time></div>
+  </header>
+  <section class="post-excerpt">
+    {{ if and (not .Description) (.Site.Params.useSummaryIfNoDescription)}}
+    <p>{{ .Summary | markdownify }}&hellip;</p>
+    {{ else }}
+    <p>{{ .Description | markdownify }}</p>
+    {{ end }}
+    <p class="readmore"><a href="{{ .Permalink }}">{{ .Site.Params.keepReadingStr }} <span class="visuallyhidden">{{.Title}}</span></a></p>
+  </section>
+</article>

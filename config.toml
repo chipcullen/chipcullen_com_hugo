@@ -10,6 +10,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses=true
 googleAnalytics = "UA-19939997-1"
 disqusShortname = "chipcullen"
+summaryLength = 50
 
 # Number of posts per page
 paginate = 10
@@ -52,3 +53,4 @@ paginate = 10
 	backtotopStr = "Back to top"
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
+	useSummaryIfNoDescription = true
