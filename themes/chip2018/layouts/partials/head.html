@@ -3,8 +3,15 @@
   <head>
   <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
 
-  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <!-- <link rel="stylesheet" href="{{ "css/main.css" | relURL }}"> -->
 
+  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
+  {{ $style := resources.Get "main.scss" | resources.ToCSS $options }}
+
+  <link rel="stylesheet"
+  href="{{ $style.Permalink }}"
+  integrity="{{ $style.Data.Integrity }}"
+  media="screen">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ with .Site.Params.name }}
   <meta name="author" content="{{ . }}">
