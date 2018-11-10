@@ -9,7 +9,7 @@
   {{ $style := resources.Get "main.scss" | resources.ToCSS $options }}
 
   <link rel="stylesheet"
-  href="{{ $style.Permalink }}"
+  href="{{ $style.RelPermalink }}"
   integrity="{{ $style.Data.Integrity }}"
   media="screen">
   <meta name="viewport" content="width=device-width, initial-scale=1">
