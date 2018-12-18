@@ -1,18 +1,38 @@
 body {
+  height: 100%;
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  background-image: url("/svg/yellow-stripe-1.svg"),
-    url("/svg/yellow-stripe-1.svg"), url("/svg/yellow-stripe-1.svg"),
-    url("/svg/yellow-stripe-1.svg"), url("/svg/yellow-stripe-1.svg");
-  background-size: 50px, 20px, 50px, 20px, 50px;
-  background-repeat: no-repeat repeat, repeat no-repeat, repeat no-repeat,
-    repeat no-repeat, repeat no-repeat;
-  background-position: 120px center, center 190px, center 120px, center 162px,
-    center 208px;
-  padding: 10px;
-  border: 10px solid orange;
+  // background-image: url("/svg/yellow-stripe-1.svg"),
+  //   url("/svg/yellow-stripe-1.svg"), url("/svg/yellow-stripe-1.svg"),
+  //   url("/svg/yellow-stripe-1.svg"), url("/svg/yellow-stripe-1.svg");
+  background-image: radial-gradient(
+      circle at 100% 0%,
+      rgba(87, 112, 41, 0.2) 0%,
+      rgba(187, 212, 141, 0.2) 100%
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      rgba(255, 255, 12, 0.8) 0%,
+      rgba(253, 113, 11, 0.8) 25%,
+      rgba(224, 35, 41, 0.8) 50%,
+      rgba(76, 0, 43, 0.8) 75%,
+      rgba(53, 1, 49, 0.8) 100%
+    );
+  background-size: cover;
+  // background-size: 50px, 20px, 50px, 20px, 50px;
+  // background-repeat: no-repeat repeat, repeat no-repeat, repeat no-repeat,
+  //   repeat no-repeat, repeat no-repeat;
+  // background-position: 120px center, center 190px, center 120px, center 162px,
+  //   center 208px;
+  // padding: 10px;
+  // border: 10px solid orange;
   font-family: Helvetica, "sans-serif";
+}
+
+body > header {
+  display: flex;
+  justify-content: center;
 }
 
 svg {
@@ -23,4 +43,150 @@ svg {
 
 h1 {
   font-size: 2.4rem;
+  font-family: "Spectral", "serif";
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 0.05fr 0.05fr 0.05fr 0.05fr 1fr 0.05fr 0.05fr 0.05fr 0.05fr;
+  // grid-column-gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 62.5%;
+
+  .post-summary {
+    background-color: #fff;
+    > a {
+      display: block;
+      padding: 1.5em;
+    }
+    // box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 27px 0.5em -0.5em rgba(0, 0, 0, 0.5);
+
+    h1 {
+      font-size: 2em;
+    }
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    // transition-timing-function: cubic-bezier(0.17, 0.67, 0.78, -1.01);
+    transition-timing-function: ease-out;
+    transform-origin: top center;
+    // transform: translateY(-10px);
+    margin-top: -20px;
+
+    &:hover,
+    &:focus {
+      // transform: perspective(400px) rotate3d(20deg);
+      transform: perspective(1000px) rotateX(-3deg);
+      // perspective-origin: 0 100%;
+    }
+
+    &:nth-of-type(1) {
+      grid-column-start: 1;
+      grid-column-end: 10;
+      // box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: none;
+      z-index: 5;
+      font-size: 2em;
+      margin-top: 0;
+    }
+
+    &:nth-of-type(2) {
+      grid-column-start: 2;
+      grid-column-end: 9;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      font-size: 1.8em;
+      z-index: 4;
+      background-color: #feefef;
+    }
+    &:nth-of-type(3) {
+      grid-column-start: 3;
+      grid-column-end: 8;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      font-size: 1.6em;
+      z-index: 3;
+      background-color: #f7eeee;
+    }
+
+    &:nth-of-type(4) {
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 4;
+      grid-row-end: 5;
+      font-size: 1.4em;
+      z-index: 2;
+      background-color: #f7e7e6;
+    }
+    &:nth-of-type(5) {
+      grid-column-start: 5;
+      grid-column-end: 6;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      font-size: 1.2em;
+      z-index: 1;
+      opacity: 0.8;
+    }
+
+    // &:nth-of-type(6) {
+    //   grid-column-start: 4;
+    //   grid-column-end: 5;
+    //   grid-row-start: 4;
+    //   grid-row-end: 5;
+    //   font-size: 1.2em;
+    // }
+    // &:nth-of-type(7) {
+    //   grid-column-start: 5;
+    //   grid-column-end: 6;
+    //   grid-row-start: 4;
+    //   grid-row-end: 5;
+    //   font-size: 1.2em;
+    // }
+  }
+
+  .pagination {
+    grid-column-start: 1;
+    grid-column-end: 10;
+  }
+}
+
+// Helper classes
+
+// Hide for both screenreaders and browsers: css-discuss.incutio.com/wiki/Screenreader_Visibility
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+// Hide only visually, but have it available for screenreaders: by Jon Neal. www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden
+.visuallyhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  // Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638
+  &.focusable {
+    &:active,
+    &:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      clip: auto;
+    }
+  }
+}
+
+// Hide visually and from screenreaders, but maintain layout
+.invisible {
+  visibility: hidden;
 }
