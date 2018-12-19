@@ -31,3 +31,8 @@
 h1.blog-title {
   margin-bottom: 15px;
 }
+
+b,
+strong {
+  font-weight: 700;
+}
