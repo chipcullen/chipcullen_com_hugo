@@ -21,15 +21,15 @@ Also - _most_ of my reading is done via audiobook. I have really come to love au
 
 Anyway, I'm not going to go through all 29 books here - only the top 7.
 
-- _A Tree Grows in Brooklyn_
-- _The Alchemist_
-- _Neverwhere_
-- _Rich Dad, Poor Dad_
-- _Accelerate_
-- _Eat That Frog_
-- _Never Split the Difference_
+- [_A Tree Grows in Brooklyn_](https://www.audible.com/pd/A-Tree-Grows-in-Brooklyn-Audiobook/B002UZMRGS)
+- [_The Alchemist_](https://www.audible.com/pd/The-Alchemist-Audiobook/B002V0Q4LG)
+- [_Neverwhere_](https://www.audible.com/pd/Neverwhere-Audiobook/B00354ZSS2)
+- [_Rich Dad, Poor Dad_](https://www.audible.com/pd/Rich-Dad-Poor-Dad-Audiobook/B008BT3C1Q)
+- [_Accelerate_](https://www.audible.com/pd/Accelerate-Building-and-Scaling-High-Performing-Technology-Organizations-Audiobook/B07BLZDZFQ)
+- [_Eat That Frog_](https://www.audible.com/pd/Eat-That-Frog-Audiobook/153849115X)
+- [_Never Split the Difference_](https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G)
 
-## A Tree Grows in Brooklyn
+## [A Tree Grows in Brooklyn](https://www.audible.com/pd/A-Tree-Grows-in-Brooklyn-Audiobook/B002UZMRGS)
 
 This was a weird one. I had it in my head that I should read this book for years. I knew nothing about it, other than it was a classic. Finally I just plunked down and started it.
 
@@ -39,13 +39,13 @@ It's a coming of age story about a girl (Frannie) growing up in Brooklyn around 
 
 The characters are so vivid - the worries are so relatable - you really get sucked into Frannie's world. As I am of Irish decent, it was also interesting to read about a predominantly Irish family still trying to establish itself in America.
 
-## The Alchemist
+## [The Alchemist](https://www.audible.com/pd/The-Alchemist-Audiobook/B002V0Q4LG)
 
 This was an unexpected gem. I was going through the _Great American Read_ list and seeing what was available from my library. This one was. It wasn't very long - only 4 hours as an audiobook.
 
 It is a … surreal story that goes by like a dream. It's kind of hard to describe. The story follows a shepherd boy as he follows a dream (literally) and the choices and changes he faces a long the way (and back). At the end of it, you feel more ready to embrace whim and chance in life.
 
-## Neverwhere
+## [Neverwhere](https://www.audible.com/pd/Neverwhere-Audiobook/B00354ZSS2)
 
 My last fiction entry on this list is by Neil Gaiman. I've read one other book of his (The Graveyard Book) and enjoyed it.
 
@@ -53,7 +53,7 @@ I'll be honest, this one was much harder to get through. It's about a guy living
 
 I had a hard time with the book because I felt like the main character just kept letting things happen to him. But, in the end, the payoff is worth it. Also, it has two of the most memorable villains in a book that I've read in a while.
 
-## Rich Dad, Poor Dad
+## [Rich Dad, Poor Dad](https://www.audible.com/pd/Rich-Dad-Poor-Dad-Audiobook/B008BT3C1Q)
 
 This book changed my life, in a manner of speaking. The title is cheesy, but you have to get past that. What it's referring to are the attitudes that two men who were father figures to the author had towards money, and how it affected their life. He uses the contrast as a way to illustrate what leads to more personal wealth.
 
@@ -61,7 +61,7 @@ What got through to me with this book was this - I am a person who has largely t
 
 I may not like a lot of how money rules our society, but right now it's how the game is played. I'm at a point where I do worry about my family, and making sure they're okay. If I want to do that, I need to know how money works.
 
-## Accelerate
+## [Accelerate](https://www.audible.com/pd/Accelerate-Building-and-Scaling-High-Performing-Technology-Organizations-Audiobook/B07BLZDZFQ)
 
 This book was recommended to me by two of my much smarter coworkers. It's a very academic book that essentially argues for the benefits of continuous delivery in software organizations. Based on a lot of research, it shows that teams that adopt certain practices (such as continuous delivery) just do better work, faster.
 
@@ -69,7 +69,7 @@ This book shaped a lot of the attitudes that we have adopted at work, and we hav
 
 I have one significant complaint about this book - it is very academic, and spends a _lot_ of time justifying the conclusions that it comes to. There are long passages about the kinds of surveys they used and why their valid. I wish that there was a "I believe you" edition where they just shared the conclusions. I think that the book would be about 1/3 the length that it is.
 
-## Eat That Frog
+## [Eat That Frog](https://www.audible.com/pd/Eat-That-Frog-Audiobook/153849115X)
 
 A classic of the self-help productivity genre, this book is the polar opposite of _Accelerate_ - it is brief and to the point. The author deliberately has left out the studies and justifications of what he is presenting.
 
@@ -81,7 +81,7 @@ The author advocates ways of identifying what are the most important things _for
 
 This is a very short book - the audiobook is maybe 2 hours - and I've already re-read it several times. It helps when I don't feel focused.
 
-## Never Split the Difference
+## [Never Split the Difference](https://www.audible.com/pd/Never-Split-the-Difference-Audiobook/B01CF5O89G)
 
 This is an amazing book about negotiating, from an author who is a former FBI negotiator. While it is a lot about negotiating, I would say it's also a lot about just interhuman communication in general. It goes into how to _listen_ during a negotiation, and what to listen for.
 
