@@ -1,7 +1,7 @@
 ---
 title: "Books I Read in 2018"
-date: 2019-01-08T09:00:30-05:00
-draft: true
+date: 2019-01-26T09:00:30-05:00
+draft: false
 slug: "books-i-read-in-2018"
 ---
 
@@ -14,6 +14,8 @@ When I _thought_ back on 2018, I would have estimated that I read about 15 books
 (This is still pitiable compared to my wife - she read over 80 books in 2018. Let's just say I think she has a problem.)
 
 A number of these books were introduced to me by PBS's The Great American Read - and I'm really grateful to have been recommended them.
+
+Three of these books were recommended by [Scott Tolinski on the Syntax podcast](https://syntax.fm/) - so, thank for the great recommendations!
 
 Also - _most_ of my reading is done via audiobook. I have really come to love audibooks as they fit into my life, and make tackling very long books not intimidating.
 
@@ -53,4 +55,34 @@ I had a hard time with the book because I felt like the main character just kept
 
 ## Rich Dad, Poor Dad
 
-This book changed my life, in a manner of speaking. The title is cheesy, but you have to get past that. What it's referring to
+This book changed my life, in a manner of speaking. The title is cheesy, but you have to get past that. What it's referring to are the attitudes that two men who were father figures to the author had towards money, and how it affected their life. He uses the contrast as a way to illustrate what leads to more personal wealth.
+
+What got through to me with this book was this - I am a person who has largely tried to ignore how money _really_ works for most of my life. And like it or not, this book gets to _how money works_ and how one makes it _work for you_. (Short version: investing - in differing things - over time).
+
+I may not like a lot of how money rules our society, but right now it's how the game is played. I'm at a point where I do worry about my family, and making sure they're okay. If I want to do that, I need to know how money works.
+
+## Accelerate
+
+This book was recommended to me by two of my much smarter coworkers. It's a very academic book that essentially argues for the benefits of continuous delivery in software organizations. Based on a lot of research, it shows that teams that adopt certain practices (such as continuous delivery) just do better work, faster.
+
+This book shaped a lot of the attitudes that we have adopted at work, and we have personally seen the benefits.
+
+I have one significant complaint about this book - it is very academic, and spends a _lot_ of time justifying the conclusions that it comes to. There are long passages about the kinds of surveys they used and why their valid. I wish that there was a "I believe you" edition where they just shared the conclusions. I think that the book would be about 1/3 the length that it is.
+
+## Eat That Frog
+
+A classic of the self-help productivity genre, this book is the polar opposite of _Accelerate_ - it is brief and to the point. The author deliberately has left out the studies and justifications of what he is presenting.
+
+The gist of the book is that we can never do _all_ that we have on our plates. We need to gain focus on what is important and do _that_ first and foremost.
+
+The title of the book comes from a saying along the lines of "You should start each day by eating a frog; that way, you can go through the rest of the day knowing that you've already done the worst thing you'll do all day".
+
+The author advocates ways of identifying what are the most important things _for you_ in both you personal and professional life, and to clear away the cruft that isn't that. Stay focused, get one thing done at a time, and in the end you'll get so much more accomplished.
+
+This is a very short book - the audiobook is maybe 2 hours - and I've already re-read it several times. It helps when I don't feel focused.
+
+## Never Split the Difference
+
+This is an amazing book about negotiating, from an author who is a former FBI negotiator. While it is a lot about negotiating, I would say it's also a lot about just interhuman communication in general. It goes into how to _listen_ during a negotiation, and what to listen for.
+
+One thing that is stressed over and over is that humans are _not_ rational human beings - we are, after all, animals, and our brains are controlled by fears and emotions in ways that we cannot override with simple logic. It takes great _emotional intelligence_ to be a good negotiator.
