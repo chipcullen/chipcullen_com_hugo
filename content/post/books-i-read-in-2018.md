@@ -14,7 +14,7 @@ When I _thought_ back on 2018, I would have estimated that I read about 15 books
 
 (This is still pitiable compared to my wife - she read over 80 books in 2018. Let's just say I think she has a problem.)
 
-A number of these books were introduced to me by PBS's The Great American Read - and I'm really grateful to have been recommended them.
+A number of these books were introduced to me by [PBS's The Great American Read](https://www.pbs.org/the-great-american-read/home/) - and I'm really grateful to have been recommended them.
 
 Three of these books were recommended by [Scott Tolinski on the Syntax podcast](https://syntax.fm/) - so, thank for the great recommendations!
 
