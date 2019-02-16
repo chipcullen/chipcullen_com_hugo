@@ -1,0 +1,37 @@
+// Helper classes
+
+// Hide for both screenreaders and browsers: css-discuss.incutio.com/wiki/Screenreader_Visibility
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+// Hide only visually, but have it available for screenreaders: by Jon Neal. www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden
+.visuallyhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  // Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638
+  &.focusable {
+    &:active,
+    &:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      clip: auto;
+    }
+  }
+}
+
+// Hide visually and from screenreaders, but maintain layout
+.invisible {
+  visibility: hidden;
+}

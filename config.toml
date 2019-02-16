@@ -5,7 +5,7 @@
 baseURL = "https://chipcullen.com/"
 languageCode = "en-us"
 title = "Chip Cullen | Front End Developer"
-theme = "chip2018"
+theme = "chip2019"
 pygmentsCodeFences = true
 pygmentsUseClasses=true
 googleAnalytics = "UA-19939997-1"
