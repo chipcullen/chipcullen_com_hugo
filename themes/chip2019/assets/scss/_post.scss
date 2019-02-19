@@ -11,13 +11,23 @@
   grid-gap: 2rem;
 
   @media (min-width: 768px) {
-    grid-template-columns: var(--meta-offset) 20ch 20ch minmax(20ch, 40ch) 1fr 1fr;
+    grid-template-columns: var(--meta-offset) 40ch minmax(20ch, 40ch) 1fr;
     grid-template-areas:
-      "header header header header . ."
-      ". content content content . ."
-      ". tags tags . . ."
-      ". comments comments . . ."
-      ". footer footer footer . .";
+      "header header header ."
+      ". content content ."
+      ". tags . ."
+      ". comments . ."
+      ". footer footer .";
+  }
+
+  // drop cap
+  p:first-child::first-letter {
+    font-size: var(--font-size-drop-cap);
+    font-weight: var(--font-weight-drop-cap);
+    color: var(--color-drop-cap);
+    float: left;
+    line-height: 0.8;
+    padding: 0 3px 0 0;
   }
 }
 

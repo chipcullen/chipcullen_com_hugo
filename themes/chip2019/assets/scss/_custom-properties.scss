@@ -1,12 +1,25 @@
 :root {
-  --background-color-page: hsl(0, 2%, 98%);
-  --color-text: hsla(0, 0%, 0%, 0.8);
+  --orange: hsla(33, 100%, 50%, 1);
+  --blue: hsla(213, 100%, 35%, 1);
+  --blue-dark: hsla(213, 80%, 25%, 1);
+  --grey-slight: hsla(0, 2%, 98%, 1);
+  --grey-dark: hsla(0, 0%, 5%, 0.8);
+
+  --background-color-page: var(--grey-slight);
+  --background-color-header: var(--orange);
+  --color-header: var(--grey-dark);
+  --color-text: var(--grey-dark);
+  --color-link: var(--blue);
+  --color-link-visited: var(--blue-dark);
+  --color-drop-cap: var(--orange);
   --font-weight-body: 400;
   --font-weight-h1: 700;
   --font-weight-h2: 500;
+  --font-weight-drop-cap: 300;
   --font-size-body: 1.6rem;
   --font-size-h1: 4rem;
   --font-size-h2: 3rem;
+  --font-size-drop-cap: 5rem;
   --meta-offset: 3rem;
   --font-weight-meta: 300;
   --text-transform-h2: none;
