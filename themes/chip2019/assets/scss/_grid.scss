@@ -1,0 +1,41 @@
+.post {
+  padding: 10vh 10vw;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "tags"
+    "comments"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: var(--meta-offset) 20ch 20ch minmax(20ch, 40ch) 1fr 1fr;
+    grid-template-areas:
+      "header header header header . ."
+      ". content content content . ."
+      ". tags tags . . ."
+      ". comments comments . . ."
+      ". footer footer footer . .";
+  }
+}
+
+.post-header {
+  grid-area: header;
+}
+
+.post-content {
+  grid-area: content;
+}
+
+.post-tags {
+  grid-area: tags;
+}
+
+.post-comments {
+  grid-area: comments;
+}
+.post-footer {
+  grid-area: footer;
+}

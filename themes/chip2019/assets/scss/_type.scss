@@ -1,0 +1,36 @@
+body {
+  font-family: "Source Serif", serif;
+  font-weight: var(--font-weight-body);
+  font-variant-ligatures: common-ligatures;
+  color: var(--color-text);
+  background-color: var(--background-color-page);
+}
+
+h1 {
+  margin-bottom: calc(var(--font-size-h1) / 3);
+  font-weight: var(--font-weight-h1);
+  font-size: var(--font-size-h1);
+  line-height: 1.1;
+}
+
+h2 {
+  margin-bottom: calc(var(--font-size-h2) / 2);
+  font-weight: var(--font-weight-h2);
+  font-size: var(--font-size-h2);
+  line-height: 1.1;
+  text-transform: var(--text-transform-h2);
+}
+
+p + h2 {
+  margin-top: var(--font-size-h2);
+}
+
+.post-meta {
+  font-weight: var(--font-weight-meta);
+  text-transform: var(--text-transform-meta);
+}
+
+p {
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
