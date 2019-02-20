@@ -1,24 +1,26 @@
 .header {
   padding: 0 10vw;
   background-color: var(--background-color-header);
-  text-transform: lowercase;
+  // border-bottom: 3px solid var(--grey-dark);
+  // box-shadow: 0 0 3px black;
+  // text-transform: lowercase;
 
   a {
     &,
     &:link,
     &:visited {
       display: inline-block;
-      padding: 1vh 1vw 1.3vh 1vw;
+      padding: 2vh 1vw 2.3vh 1vw;
       margin-left: -1vw;
       color: var(--color-header);
       text-decoration: none;
-      letter-spacing: 0.2rem;
+      // letter-spacing: 0.2rem;
       transition: background-color 0.3s ease-in, color 0.3s ease-in;
     }
 
     &:hover,
     &:focus {
-      background-color: var(--blue-dark);
+      background-color: var(--grey-dark);
       color: #fff;
     }
   }

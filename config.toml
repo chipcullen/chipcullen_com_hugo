@@ -4,7 +4,7 @@
 
 baseURL = "https://chipcullen.com/"
 languageCode = "en-us"
-title = "Chip Cullen | Front End Developer"
+title = "Chip Cullen"
 theme = "chip2019"
 pygmentsCodeFences = true
 pygmentsUseClasses=true
@@ -35,7 +35,7 @@ paginate = 5
 	# feel free to add a few information about you and your website.
 	name = "Chip Cullen"
 	bio = "Front End Developer + Blogger"
-	description = "My personal blog with thoughts on front end developement"
+	description = "My personal blog with thoughts on front end developement."
 
 	# Link your social networks (optional)
 	location = ""

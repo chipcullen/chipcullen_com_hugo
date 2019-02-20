@@ -1,0 +1,310 @@
+// code highlights
+
+.highlight {
+  padding: 4vh 2vw;
+  margin: 4vh 0;
+
+  background-color: var(--grey-dark);
+  color: var(--grey-slight);
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.4;
+
+  transform: translateX(-2vw);
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    background: var(--grey-dark);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2vw;
+    width: 2vw;
+    // transform-style: preserve-3d;
+    transform: perspective(20vw) rotateY(-45deg);
+    transform-origin: center right;
+
+    @supports (clip-path: circle()) {
+      transform: none;
+      clip-path: polygon(0% 2vh, 100% 0%, 100% 100%, 0% calc(100% - 2vh));
+    }
+  }
+
+  pre {
+    white-space: pre-wrap;
+  }
+}
+
+/* Background */
+.chroma {
+  color: var(--grey-slight);
+
+  /* Error */
+  .err {
+    color: var(--magenta);
+    // background-color: #1e0010;
+  }
+  /* LineTableTD */
+  .lntd {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  /* LineTable */
+  .lntable {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+    overflow: auto;
+    display: block;
+  }
+  /* LineHighlight */
+  .hl {
+    display: block;
+    width: 100%;
+    background-color: var(--grey-slight);
+  }
+  /* LineNumbersTable */
+  .lnt {
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+  }
+  /* LineNumbers */
+  .ln {
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+  }
+  /* Keyword */
+  .k {
+    color: var(--blue-light);
+  }
+  /* KeywordConstant */
+  .kc {
+    color: var(--blue-light);
+  }
+  /* KeywordDeclaration */
+  .kd {
+    color: var(--blue-light);
+  }
+  /* KeywordNamespace */
+  .kn {
+    color: var(--magenta);
+  }
+  /* KeywordPseudo */
+  .kp {
+    color: var(--blue-light);
+  }
+  /* KeywordReserved */
+  .kr {
+    color: var(--blue-light);
+  }
+  /* KeywordType */
+  .kt {
+    color: var(--blue-light);
+  }
+  /* NameAttribute */
+  .na {
+    color: var(--green-bright);
+  }
+  /* NameClass */
+  .nc {
+    color: var(--green-bright);
+  }
+  /* NameConstant */
+  .no {
+    color: var(--blue-light);
+  }
+  /* NameDecorator */
+  .nd {
+    color: var(--green-bright);
+  }
+  /* NameException */
+  .ne {
+    color: var(--green-bright);
+  }
+  /* NameFunction */
+  .nf {
+    color: var(--green-bright);
+  }
+  /* NameOther */
+  .nx {
+    color: var(--green-bright);
+  }
+  /* NameTag */
+  .nt {
+    color: var(--magenta);
+  }
+  /* Literal */
+  .l {
+    color: var(--purple);
+  }
+  /* LiteralDate */
+  .ld {
+    color: var(--yellow);
+  }
+  /* LiteralString */
+  .s {
+    color: var(--yellow);
+  }
+  /* LiteralStringAffix */
+  .sa {
+    color: var(--yellow);
+  }
+  /* LiteralStringBacktick */
+  .sb {
+    color: var(--yellow);
+  }
+  /* LiteralStringChar */
+  .sc {
+    color: var(--yellow);
+  }
+  /* LiteralStringDelimiter */
+  .dl {
+    color: var(--yellow);
+  }
+  /* LiteralStringDoc */
+  .sd {
+    color: var(--yellow);
+  }
+  /* LiteralStringDouble */
+  .s2 {
+    color: var(--yellow);
+  }
+  /* LiteralStringEscape */
+  .se {
+    color: var(--purple);
+  }
+  /* LiteralStringHeredoc */
+  .sh {
+    color: var(--yellow);
+  }
+  /* LiteralStringInterpol */
+  .si {
+    color: var(--yellow);
+  }
+  /* LiteralStringOther */
+  .sx {
+    color: var(--yellow);
+  }
+  /* LiteralStringRegex */
+  .sr {
+    color: var(--yellow);
+  }
+  /* LiteralStringSingle */
+  .s1 {
+    color: var(--yellow);
+  }
+  /* LiteralStringSymbol */
+  .ss {
+    color: var(--yellow);
+  }
+  /* LiteralNumber */
+  .m {
+    color: var(--purple);
+  }
+  /* LiteralNumberBin */
+  .mb {
+    color: var(--purple);
+  }
+  /* LiteralNumberFloat */
+  .mf {
+    color: var(--purple);
+  }
+  /* LiteralNumberHex */
+  .mh {
+    color: var(--purple);
+  }
+  /* LiteralNumberInteger */
+  .mi {
+    color: var(--purple);
+  }
+  /* LiteralNumberIntegerLong */
+  .il {
+    color: var(--purple);
+  }
+  /* LiteralNumberOct */
+  .mo {
+    color: var(--purple);
+  }
+  /* Operator */
+  .o {
+    color: var(--magenta);
+  }
+  /* OperatorWord */
+  .ow {
+    color: var(--magenta);
+  }
+  /* Comment */
+  .c {
+    color: var(--grey-middle);
+  }
+  /* CommentHashbang */
+  .ch {
+    color: var(--grey-middle);
+  }
+  /* CommentMultiline */
+  .cm {
+    color: var(--grey-middle);
+  }
+  /* CommentSingle */
+  .c1 {
+    color: var(--grey-middle);
+  }
+  /* CommentSpecial */
+  .cs {
+    color: var(--grey-middle);
+  }
+  /* CommentPreproc */
+  .cp {
+    color: var(--grey-middle);
+  }
+  /* CommentPreprocFile */
+  .cpf {
+    color: var(--grey-middle);
+  }
+  /* GenericDeleted */
+  .gd {
+    color: var(--magenta);
+  }
+  /* GenericEmph */
+  .ge {
+    font-style: italic;
+  }
+  /* GenericInserted */
+  .gi {
+    color: var(--green-bright);
+  }
+  /* GenericStrong */
+  .gs {
+    font-weight: bold;
+  }
+  /* GenericSubheading */
+  .gu {
+    color: var(--grey-middle);
+  }
+}
+
+.hljs-tag {
+  color: var(--magenta);
+}
+
+.hljs-selector-class {
+  color: var(--green-bright);
+}
+
+.hljs-keyword {
+  color: var(--blue-light);
+}
+
+.hljs-string {
+  color: var(--yellow);
+}
+
+.hljs-built_in {
+  color: var(--blue-light);
+}
