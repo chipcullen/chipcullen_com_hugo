@@ -11,7 +11,7 @@
   grid-gap: 2rem;
 
   @media (min-width: 768px) {
-    grid-template-columns: var(--meta-offset) 40ch minmax(20ch, 40ch) 1fr;
+    grid-template-columns: var(--meta-offset) 40ch minmax(20ch, 30ch) 1fr;
     grid-template-areas:
       "header header header ."
       ". content content ."
