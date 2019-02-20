@@ -45,10 +45,6 @@ a {
   &:visited {
     color: var(--color-link-visited);
   }
-
-  &[href^="http"] {
-    text-decoration-style: dotted;
-  }
 }
 
 hr {
