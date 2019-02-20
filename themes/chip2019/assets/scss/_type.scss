@@ -62,7 +62,7 @@ h5:not(:first-child) {
 }
 
 h6 {
-  margin-bottom: calc(var(--font-size-h6) / 2);
+  margin-bottom: calc(var(--font-size-h6) / 1.5);
   font-weight: var(--font-weight-h6);
   font-size: var(--font-size-h6);
   line-height: 1.1;
@@ -81,6 +81,10 @@ h6:not(:first-child) {
 p {
   margin-bottom: 0.8rem;
   line-height: 1.4;
+}
+
+p > img {
+  margin: var(--font-size-body) 0;
 }
 
 a {
@@ -133,11 +137,78 @@ blockquote {
 }
 
 em,
-i {
+i,
+abbr,
+cite,
+dfn,
+q {
   font-style: italic;
+}
+
+q q {
+  font-style: normal;
+}
+
+abbr[title],
+acronym[title],
+dfn[title] {
+  text-decoration: underline;
+  text-decoration-style: solid;
 }
 
 strong,
 b {
   font-weight: 700;
+}
+
+p code,
+samp {
+  display: inline-block;
+  padding: calc(var(--font-size-body) / 4);
+  background-color: var(--grey-dark);
+  color: var(--grey-slight);
+  font-family: $mono;
+}
+
+data:hover::after {
+  content: " (" attr(value) ")";
+  font-size: 0.7em;
+}
+
+ins {
+  background-color: var(--green-bright);
+  text-decoration: none;
+  padding: 0 3px;
+}
+
+kbd {
+  font-family: $mono;
+  background-color: var(--grey-light);
+  padding: 3px 5px;
+  box-shadow: 0 1px 1px var(--grey-dark);
+}
+
+mark {
+  background-color: var(--orange);
+}
+
+small {
+  font-size: 0.8em;
+}
+
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.4em;
+}
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.4em;
+}
+
+var {
+  font-weight: 700;
+  font-style: italic;
 }
