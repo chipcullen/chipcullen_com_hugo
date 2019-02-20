@@ -40,11 +40,14 @@ a {
   &:link {
     color: var(--color-link);
     text-decoration-color: currentColor;
-    text-decoration-position: 2px;
   }
 
   &:visited {
     color: var(--color-link-visited);
+  }
+
+  &[href^="http"] {
+    text-decoration-style: dotted;
   }
 }
 
@@ -52,4 +55,45 @@ hr {
   border-color: currentColor;
   opacity: 0.5;
   margin: calc(var(--font-size-h2) / 1.5) 0;
+  box-shadow: none;
+  border-style: solid;
+}
+
+blockquote {
+  position: relative;
+  padding: 4vh 2vw;
+  margin: 4vh 0;
+  font-style: italic;
+  background-color: hsla(33, 80%, 90%, 1);
+  width: calc(100% - 8vw);
+  transform: translateX(4vw);
+
+  &::after {
+    content: "";
+    display: block;
+    background: hsla(33, 80%, 90%, 1);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2vw;
+    width: 2vw;
+    transform: perspective(20vw) rotateY(-45deg);
+    transform-origin: center right;
+
+    @supports (clip-path: circle()) {
+      transform: none;
+      clip-path: polygon(0% 2vh, 100% 0%, 100% 100%, 0% calc(100% - 2vh));
+    }
+  }
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: 700;
 }
