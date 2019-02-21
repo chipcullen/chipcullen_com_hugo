@@ -162,12 +162,17 @@ b {
 }
 
 p code,
-samp {
+samp,
+pre {
   display: inline-block;
   padding: calc(var(--font-size-body) / 4);
   background-color: var(--grey-dark);
   color: var(--grey-slight);
   font-family: $mono;
+}
+
+pre {
+  white-space: pre-wrap;
 }
 
 data:hover::after {
@@ -211,4 +216,51 @@ sup {
 var {
   font-weight: 700;
   font-style: italic;
+}
+
+dl {
+  margin-left: 3.2rem;
+  margin-right: 0;
+
+  &:not(:first-child) {
+    margin-top: 1.6rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+
+dt {
+  font-size: 2rem;
+  font-style: italic;
+
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+dd {
+  margin-bottom: 1.2rem;
+  line-height: 1.4;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+table {
+  border-bottom: 1px solid var(--grey-dark);
+}
+
+thead {
+  border-bottom: 1px solid var(--grey-dark);
+  background-color: var(--orange);
+}
+
+tr:nth-child(2n) {
+  background-color: var(--grey-light);
+}
+td,
+th {
+  padding: 2vh 2vw;
 }
