@@ -1,0 +1,88 @@
+.post {
+  padding: 10vh 10vw;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "tags"
+    "comments"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: var(--meta-offset) 40ch minmax(20ch, 30ch) 1fr;
+    grid-template-areas:
+      "header header header ."
+      ". content content ."
+      ". tags tags ."
+      ". comments comments ."
+      ". footer footer .";
+  }
+}
+
+.post-header {
+  grid-area: header;
+}
+
+.post-content {
+  grid-area: content;
+
+  // drop cap
+  > p:first-child::first-letter {
+    font-size: var(--font-size-drop-cap);
+    font-weight: var(--font-weight-drop-cap);
+    color: var(--color-drop-cap);
+    float: left;
+    line-height: 0.8;
+    padding: 0 3px 0 0;
+  }
+}
+
+@mixin tag() {
+  display: inline-block;
+  padding: 0.4rem;
+  border: 1px solid currentColor;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: background-color 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    background-color: var(--grey-light);
+  }
+}
+.post-tags {
+  grid-area: tags;
+
+  a {
+    @include tag();
+  }
+}
+
+.post-comments {
+  grid-area: comments;
+}
+.post-footer {
+  grid-area: footer;
+}
+
+//lists
+.post-summary {
+  margin-bottom: 7vh;
+
+  .post-title {
+    text-transform: none;
+  }
+
+  .post-meta {
+    margin-bottom: 2vh;
+  }
+
+  .readmore {
+    margin-top: 4vh;
+    a {
+      @include tag();
+    }
+  }
+}

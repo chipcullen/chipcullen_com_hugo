@@ -1,0 +1,31 @@
+.home {
+  padding: 10vh 10vw;
+  display: grid;
+  grid-template-areas:
+    "intro"
+    "post-list"
+    "pagination";
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: var(--meta-offset) 40ch minmax(20ch, 30ch) 1fr;
+    grid-template-areas:
+      "intro intro intro ."
+      ". post-list post-list ."
+      ". pagination pagination .";
+  }
+}
+
+.home-intro {
+  font-size: 1.5em;
+  grid-area: intro;
+}
+
+.home-post-list {
+  grid-area: post-list;
+}
+
+.home-pagination {
+  grid-area: pagination;
+}

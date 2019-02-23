@@ -1,0 +1,24 @@
+.page {
+  padding: 10vh 10vw;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content";
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: var(--meta-offset) 40ch minmax(20ch, 30ch) 1fr;
+    grid-template-areas:
+      "header header header ."
+      ". content content .";
+  }
+}
+
+.page-header {
+  grid-area: header;
+}
+
+.page-content {
+  grid-area: content;
+}

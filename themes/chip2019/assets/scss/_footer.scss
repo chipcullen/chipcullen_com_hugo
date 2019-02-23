@@ -1,0 +1,26 @@
+.site-footer {
+  padding: 4vh 2vw;
+  background-color: var(--grey-dark);
+  color: var(--grey-slight);
+  text-align: center;
+
+  a {
+    &,
+    &:link,
+    &:visited {
+      color: currentColor;
+    }
+  }
+
+  .footer-nav__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin-bottom: 1.2rem;
+    &:not(:last-of-type) {
+      margin-right: 0.6rem;
+    }
+  }
+}

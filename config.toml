@@ -4,15 +4,16 @@
 
 baseURL = "https://chipcullen.com/"
 languageCode = "en-us"
-title = "Chip Cullen | Front End Developer"
-theme = "hugo-steam-theme"
+title = "Chip Cullen"
+theme = "chip2019"
 pygmentsCodeFences = true
 pygmentsUseClasses=true
 googleAnalytics = "UA-19939997-1"
 disqusShortname = "chipcullen"
+summaryLength = 50
 
 # Number of posts per page
-paginate = 10
+paginate = 7
 
 [permalinks]
   post = "/:slug/"
@@ -33,8 +34,8 @@ paginate = 10
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
 	name = "Chip Cullen"
-	bio = "Front End Developer + Blogger"
-	description = "My personal blog with thoughts on front end developement"
+	bio = "Front End Developer and Blogger, living in the Washington D.C. area. I currently work at <a href='https://www.pbs.org'>PBS</a> where I bring digital products to life on the web."
+	description = "My personal blog with thoughts on front end developement."
 
 	# Link your social networks (optional)
 	location = ""
@@ -52,3 +53,4 @@ paginate = 10
 	backtotopStr = "Back to top"
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
+	useSummaryIfNoDescription = true

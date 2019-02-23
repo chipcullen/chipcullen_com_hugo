@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article>
+    <header>
+        <h1>{{.Title}}</h1>
+    </header>
+</article>
+{{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
+{{ range $paginator.Pages }}
+  {{ if not .Params.hide }}
+    {{ .Render "summary" }}
+  {{ end }}
+{{ end }}
+
+{{ partial "pagination" . }}
+
+{{ end }}
