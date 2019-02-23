@@ -3,7 +3,7 @@
   <ul class="footer-nav__list">
     <li><a href="{{ "/" | relURL }}">Home</a></li>
     <li><a href="{{ "/styleguide" | relURL }}">Styleguide</a></li>
-    {{ with .Site.Params.twitter }}
+      {{ with .Site.Params.twitter }}
       <li><a href="//twitter.com/{{ . }}" target="_blank" title="Twitter"> Twitter</a></li>
       {{ end }}
       {{ with .Site.Params.linkedin }}

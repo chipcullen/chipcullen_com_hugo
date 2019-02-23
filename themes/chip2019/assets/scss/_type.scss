@@ -210,6 +210,40 @@ var {
   font-style: italic;
 }
 
+.post,
+.page {
+  ul,
+  ol {
+    margin-left: 3.2rem;
+    margin-right: 0;
+
+    &:not(:first-child) {
+      margin-top: 1.6rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  li {
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 dl {
   margin-left: 3.2rem;
   margin-right: 0;
