@@ -104,14 +104,14 @@ blockquote {
   padding: 4vh 2vw;
   margin: 4vh 0;
   font-style: italic;
-  background-color: hsla(33, 80%, 90%, 1);
+  background-color: var(--background-color-blockquote);
   width: calc(100% - 8vw);
   transform: translateX(4vw);
 
   &::after {
     content: "";
     display: block;
-    background: hsla(33, 80%, 90%, 1);
+    background: var(--background-color-blockquote);
     opacity: 0.5;
     position: absolute;
     top: 0;
@@ -142,10 +142,8 @@ q q {
 }
 
 abbr[title],
-acronym[title],
-dfn[title] {
-  text-decoration: underline;
-  text-decoration-style: solid;
+acronym[title] {
+  text-transform: uppercase;
 }
 
 strong,
@@ -153,13 +151,19 @@ b {
   font-weight: 700;
 }
 
-p code,
+p code {
+  display: inline-block;
+  padding: 0 calc(var(--font-size-body) / 6);
+  background-color: var(--background-color-code);
+  font-family: $mono;
+}
+
 samp,
 pre {
   display: inline-block;
   padding: calc(var(--font-size-body) / 4);
-  background-color: var(--grey-dark);
-  color: var(--grey-slight);
+  background-color: var(--background-color-pre);
+  color: var(--color-pre);
   font-family: $mono;
 }
 
