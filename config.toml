@@ -34,7 +34,7 @@ paginate = 5
 	# To provide some metadata for search engines and the about section in the footer
 	# feel free to add a few information about you and your website.
 	name = "Chip Cullen"
-	bio = "Front End Developer + Blogger"
+	bio = "Front End Developer and Blogger, living in the Washington D.C. area. I currently work at <a href='https://www.pbs.org'>PBS</a> where I bring digital products to life on the web."
 	description = "My personal blog with thoughts on front end developement."
 
 	# Link your social networks (optional)

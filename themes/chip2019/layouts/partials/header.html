@@ -1,4 +1,6 @@
 <header class="header">
-  <a href="/">{{ .Site.Title }}</a>
+  {{ if .IsHome }}<h1>{{ else }}<a href="{{ "/" | relURL }}">{{ end }}
+    {{ .Site.Title }}
+  {{ if .IsHome }}</h1>{{else}}</a>{{ end }}
 </header>
 

@@ -5,6 +5,15 @@
   // box-shadow: 0 0 3px black;
   // text-transform: lowercase;
 
+  h1 {
+    margin-bottom: 0;
+    padding: 2vh 0;
+    font-size: 8vw;
+
+    @media (min-width: 900px) {
+      font-size: 7.2rem;
+    }
+  }
   a {
     &,
     &:link,

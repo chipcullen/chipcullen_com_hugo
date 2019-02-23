@@ -1,11 +1,3 @@
-body {
-  font-family: "Source Serif", serif;
-  font-weight: var(--font-weight-body);
-  font-variant-ligatures: common-ligatures;
-  color: var(--color-text);
-  background-color: var(--background-color-page);
-}
-
 h1 {
   margin-bottom: calc(var(--font-size-h1) / 3);
   font-weight: var(--font-weight-h1);

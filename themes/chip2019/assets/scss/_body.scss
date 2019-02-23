@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  font-family: "Source Serif", serif;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  font-variant-ligatures: common-ligatures;
+  color: var(--color-text);
+  background-color: var(--background-color-page);
+}
