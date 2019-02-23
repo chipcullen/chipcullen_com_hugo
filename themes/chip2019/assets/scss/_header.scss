@@ -1,19 +1,24 @@
 .header {
   padding: 0 10vw;
   background-color: var(--background-color-header);
-  // border-bottom: 3px solid var(--grey-dark);
-  // box-shadow: 0 0 3px black;
-  // text-transform: lowercase;
+  font-weight: 700;
 
   h1 {
     margin-bottom: 0;
-    padding: 2vh 0;
+    padding: 5vh 0;
     font-size: 8vw;
+    font-weight: 700;
 
     @media (min-width: 900px) {
       font-size: 7.2rem;
+      font-weight: 500;
     }
   }
+
+  p {
+    margin-bottom: 0;
+  }
+
   a {
     &,
     &:link,
@@ -23,7 +28,6 @@
       margin-left: -1vw;
       color: var(--color-header);
       text-decoration: none;
-      // letter-spacing: 0.2rem;
       transition: background-color 0.3s ease-in, color 0.3s ease-in;
     }
 

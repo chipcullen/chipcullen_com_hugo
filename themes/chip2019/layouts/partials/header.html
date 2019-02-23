@@ -1,6 +1,6 @@
 <header class="header">
-  {{ if .IsHome }}<h1>{{ else }}<a href="{{ "/" | relURL }}">{{ end }}
+  {{ if .IsHome }}<h1>{{ else }}<p><a href="{{ "/" | relURL }}">{{ end }}
     {{ .Site.Title }}
-  {{ if .IsHome }}</h1>{{else}}</a>{{ end }}
+  {{ if .IsHome }}</h1>{{else}}</a></p>{{ end }}
 </header>
 

@@ -1,9 +1,11 @@
 {{ define "main" }}
+<section class="home">
 
-<div class="intro">
+<div class="home-intro">
 {{ .Content }}
 </div>
 
+<div class="home-post-list">
 <h2>Blog Posts</h2>
 {{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
 {{ range $paginator.Pages }}
@@ -11,7 +13,12 @@
     {{ .Render "summary" }}
   {{ end }}
 {{ end }}
+</div>
 
+<div class="home-pagination">
 {{ partial "pagination" . }}
+</div>
+
+</section>
 
 {{ end }}

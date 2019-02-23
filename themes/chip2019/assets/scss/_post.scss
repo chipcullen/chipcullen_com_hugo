@@ -15,7 +15,7 @@
     grid-template-areas:
       "header header header ."
       ". content content ."
-      ". tags . ."
+      ". tags tags ."
       ". comments comments ."
       ". footer footer .";
   }
@@ -39,8 +39,25 @@
   }
 }
 
+@mixin tag() {
+  display: inline-block;
+  padding: 0.4rem;
+  border: 1px solid currentColor;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: background-color 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    background-color: var(--grey-light);
+  }
+}
 .post-tags {
   grid-area: tags;
+
+  a {
+    @include tag();
+  }
 }
 
 .post-comments {
@@ -48,4 +65,24 @@
 }
 .post-footer {
   grid-area: footer;
+}
+
+//lists
+.post-summary {
+  margin-bottom: 7vh;
+
+  .post-title {
+    text-transform: none;
+  }
+
+  .post-meta {
+    margin-bottom: 2vh;
+  }
+
+  .readmore {
+    margin-top: 4vh;
+    a {
+      @include tag();
+    }
+  }
 }
