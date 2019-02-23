@@ -1,0 +1,21 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "image": "{{ "chip-cullen-avatar-2018.jpg" | absURL }}",
+  "datePublished": "{{ .Date }}",
+  "dateModified": "{{ .Lastmod }}",
+  "author": {
+    "@type": "Person",
+    "name": "Chip Cullen"
+  },
+
+  },
+  "description": "{{ if .Description }}{{.Description}} {{ else }}{{.Summary}}{{ end }}"
+}
+</script>

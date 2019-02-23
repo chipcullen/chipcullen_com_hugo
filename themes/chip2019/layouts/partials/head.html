@@ -37,6 +37,10 @@
   title="{{ .Site.Title }}" />
   {{ end }}
 
+  {{if eq .Section "post"}}
+  {{- partial "structureddata.html" . -}}
+  {{ end }}
+
   {{ if .Params.styles }}
   <style>
     {{ .Params.styles | safeCSS }}
