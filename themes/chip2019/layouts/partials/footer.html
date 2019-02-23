@@ -4,19 +4,19 @@
     <li><a href="{{ "/" | relURL }}">Home</a></li>
     <li><a href="{{ "/styleguide" | relURL }}">Styleguide</a></li>
       {{ with .Site.Params.twitter }}
-      <li><a href="//twitter.com/{{ . }}" target="_blank" title="Twitter"> Twitter</a></li>
+      <li><a href="//twitter.com/{{ . }}" target="_blank" rel="noreferrer" title="Twitter"> Twitter</a></li>
       {{ end }}
       {{ with .Site.Params.linkedin }}
-      <li><a href="//www.linkedin.com/in/{{ . }}" target="_blank" title="linkedIn">LinkedIn</a></li>
+      <li><a href="//www.linkedin.com/in/{{ . }}" target="_blank" rel="noreferrer" title="linkedIn">LinkedIn</a></li>
       {{ end }}
       {{ with .Site.Params.facebook }}
-      <li><a href="//www.facebook.com/{{ . }}" target="_blank" title="Facebook">Facebook</a></li>
+      <li><a href="//www.facebook.com/{{ . }}" target="_blank" rel="noreferrer" title="Facebook">Facebook</a></li>
       {{ end }}
       {{ with .Site.Params.instagram }}
-      <li><a href="//www.instagram.com/{{ . }}" target="_blank" title="Instagram">Instagram</a></li>
+      <li><a href="//www.instagram.com/{{ . }}" target="_blank" rel="noreferrer" title="Instagram">Instagram</a></li>
       {{ end }}
       {{ with .Site.Params.github }}
-      <li><a href="//github.com/{{ . }}" target="_blank" title="GitHub">GitHub</a></li>
+      <li><a href="//github.com/{{ . }}" target="_blank" rel="noreferrer" title="GitHub">GitHub</a></li>
       {{ end }}
       {{ with .RSSLink }}
       <li><a href="{{ . }}" target="_blank" title="RSS">RSS</a></li>
