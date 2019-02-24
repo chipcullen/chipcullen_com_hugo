@@ -16,7 +16,7 @@ When I _thought_ back on 2018, I would have estimated that I read about 15 books
 
 A number of these books were introduced to me by [PBS's The Great American Read](https://www.pbs.org/the-great-american-read/home/) - and I'm really grateful to have been recommended them.
 
-Three of these books were recommended by [Scott Tolinski on the Syntax podcast](https://syntax.fm/) - so, thank for the great recommendations!
+Three of these books were recommended by [Scott Tolinski on the Syntax podcast](https://syntax.fm/) - so, thank you to him for the great recommendations!
 
 Also - _most_ of my reading is done via audiobook. I have really come to love audibooks as they fit into my life, and make tackling very long books not intimidating.
 
