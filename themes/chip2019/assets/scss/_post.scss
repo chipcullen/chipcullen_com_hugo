@@ -37,6 +37,10 @@
     line-height: 0.8;
     padding: 0 3px 0 0;
   }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 @mixin tag() {
