@@ -4,6 +4,7 @@ date: 2019-02-25T18:32:21-05:00
 draft: false
 slug: "new-design-2019"
 description: "My site gets a makeover for 2019. Here's all about it."
+tags: ["design"]
 custom_properties:
   [
     "--background-color-page: var(--yellow-light);",
