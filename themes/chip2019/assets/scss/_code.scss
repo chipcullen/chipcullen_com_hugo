@@ -11,6 +11,7 @@
 
   transform: translateX(-2vw);
   position: relative;
+  width: calc(100% + 4vw);
 
   &::after {
     content: "";
@@ -33,6 +34,12 @@
 
   pre {
     background-color: transparent;
+  }
+
+  code {
+    display: block;
+    white-space: inherit;
+    max-width: 70vw;
   }
 }
 
