@@ -2,7 +2,7 @@
 title: "Developing a Wordpress site locally, on more than one computer"
 date: Mon, 31 Oct 2011 13:00:11 +0000
 draft: false
-tags: [wordpress, Wordpress]
+tags: [Wordpress]
 ---
 
 Let&rsquo;s say you want to develop a Wordpress site on your computer ( i.e., locally), but want to be able to work on that same site from a different computer. For instance, you are working on a site at work, but you have another computer at home, and want to easily work on the site from there.
