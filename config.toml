@@ -7,6 +7,7 @@ pygmentsUseClasses=true
 googleAnalytics = "UA-19939997-1"
 disqusShortname = "chipcullen"
 summaryLength = 50
+enableGitInfo = true
 
 # Number of posts per page
 paginate = 7
