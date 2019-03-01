@@ -1,5 +1,5 @@
 ---
-title: "Responsive spacing with viewport units"
+title: "Responsive spacing with viewport and ch units"
 date: 2019-03-01T08:13:06-05:00
 draft: false
 slug: "responsive-spacing-with-viewport-units"
