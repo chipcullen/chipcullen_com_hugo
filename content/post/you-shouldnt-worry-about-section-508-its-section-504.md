@@ -24,7 +24,7 @@ Section 504 is 508's lesser known, but much more broadly applicable sibling. And
 
 Section 504 states, in part, that:
 
-    "…no qualified individual with a disability in the United States shall be excluded from, denied the benefits of, or be subjected to discrimination under any program or activity that … receives Federal financial assistance …"
+> "…no qualified individual with a disability in the United States shall be excluded from, denied the benefits of, or be subjected to discrimination under any program or activity that … receives Federal financial assistance …"
 
 That has a pretty broad reach. It was originally intended to force organizations to make physical accommodation for those with disabilities. However, more recently, the Federal government has taken the law to apply to the digital space as well.
 
