@@ -16,7 +16,8 @@
   {{ end }}
 
   <meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}">
-  <meta name="description" property="og:description" content="{{ if not .IsHome }}{{ if .Description }}{{.Description}} {{ else }}{{.Summary}}{{ end }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
+  <meta name="description" property="og:description" content="
+  {{ if not .IsHome }}{{ if .Description }}{{.Description}}{{ else }}{{.Summary}}{{ end }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:image" content="{{ "chip-cullen-avatar-2018.jpg" | absURL }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta name="twitter:card" content="summary_large_image">
