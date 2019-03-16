@@ -111,13 +111,13 @@ blockquote {
   &::after {
     content: "";
     display: block;
-    background: var(--background-color-blockquote);
-    opacity: 0.5;
     position: absolute;
     top: 0;
     bottom: 0;
     left: -2vw;
     width: 2vw;
+    background: var(--background-color-blockquote);
+    opacity: 0.5;
     transform: perspective(20vw) rotateY(-45deg);
     transform-origin: center right;
 
