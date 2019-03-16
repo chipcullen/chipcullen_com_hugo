@@ -101,12 +101,12 @@ hr {
 
 blockquote {
   position: relative;
-  padding: 5vh 2vw;
-  margin: 5vh 0;
-  font-style: italic;
-  background-color: var(--background-color-blockquote);
   width: calc(100% - 8vw);
   transform: translateX(4vw);
+  padding: 5vh 2vw;
+  margin: 5vh 0;
+  background-color: var(--background-color-blockquote);
+  font-style: italic;
 
   &::after {
     content: "";
