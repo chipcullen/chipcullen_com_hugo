@@ -7,7 +7,7 @@ description: "A quick tip on adding a canonical tag within Django templates, and
 tags: ["django"]
 custom_properties:
   [
-    "--background-color-page: hsla(213, 100%, 85%, 1);",
+    "--background-color-page: hsla(213, 100%, 88%, 1);",
     "--background-color-header: var(--grey-dark);",
     "--color-header: var(--grey-slight);",
     "--font-weight-h1: 422;",
