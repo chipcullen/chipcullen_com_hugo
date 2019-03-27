@@ -151,11 +151,14 @@ b {
   font-weight: 700;
 }
 
-p code {
-  display: inline-block;
-  padding: 0 calc(var(--font-size-body) / 6);
-  background-color: var(--background-color-code);
-  font-family: $mono;
+p,
+li {
+  code {
+    display: inline-block;
+    padding: 0 calc(var(--font-size-body) / 6);
+    background-color: var(--background-color-code);
+    font-family: $mono;
+  }
 }
 
 samp,
