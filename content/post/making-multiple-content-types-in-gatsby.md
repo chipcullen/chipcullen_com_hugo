@@ -5,7 +5,13 @@ draft: false
 slug: "making-multiple-content-types-in-gatsby"
 description: "Making a site with different content types in Gatsby is not very straightforward — here is how I figured out how to do it, and while using a mix of Markdown or JavaScript page files."
 tags: ["Gatsby"]
-custom_properties: ["--text-transform-h3: none;", " --font-weight-h1: 503;"]
+custom_properties:
+  [
+    "--text-transform-h3: none;",
+    " --font-weight-h1: 503;",
+    "--background-color-header: var(--blue-light);",
+    "--color-drop-cap: var(--blue);",
+  ]
 ---
 
 I was building a Gatsby site at work recently, and had a really hard time doing something which is usually pretty easy with static site generators. That was to define multiple content types, with Markdown files as sources, like this:
