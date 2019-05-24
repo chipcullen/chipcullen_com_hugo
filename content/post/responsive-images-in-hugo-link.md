@@ -1,6 +1,6 @@
 ---
 title: "Responsive Images in Hugo - by Laura Kalbag"
-date: 2019-05-23T21:41:19-04:00
+date: 2019-05-22T21:41:19-04:00
 draft: false
 slug: "responsive-images-in-hugo-link"
 description: ""

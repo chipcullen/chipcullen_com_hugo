@@ -1,20 +1,30 @@
 ---
 title: "Art Direction for the Web: a Book Review"
-date: 2019-05-20T08:37:44-04:00
-draft: true
+date: 2019-05-23T21:42:44-04:00
+draft: false
 slug: "art-direction-for-the-web-book-review"
 description: "A review of Andy Clarke's new book."
+metaimage: "/art-direction-for-the-web-book-review/art_direction_for_the_web_cover_hu33627d6b319b14f56dcf1de34fa7b07a_173120_800x0_resize_q75_box.jpg"
 tags: ["books"]
-custom_properties: []
+custom_properties: [
+    "
+    --text-transform-h3: none;
+    --background-color-header: var(--yellow);
+    --font-weight-h1: 502;
+    --font-size-h1-large: 6rem;
+    --font-weight-h1-large: 402;
+    --color-drop-cap: var(--blue-dark);
+    ",
+  ]
 ---
+
+Let's start this book review with a warning - I'm not about to be impartial. [Andy Clarke](https://stuffandnonsense.co.uk/) is a bit of a hero for me. His earlier work, [Transcending CSS](https://www.amazon.com/Transcending-CSS-Fine-Art-Design/dp/0321410971), is literally the book that started my career in web development. It is why, to this day, CSS is my comfort zone.
 
 {{< figure class="art-direction-image" figcaption="Art Direction for the Web by Andy Clarke" >}}
 {{<img src="art_direction_for_the_web_cover.jpg" alt="The cover of Art Direction for the Web by Andy Clarke" sizes="100vw, (min-width: 58em) 580px,">}}
 {{< /figure >}}
 
-Let's start this book review with a warning - I'm not about to be impartial. [Andy Clarke](https://stuffandnonsense.co.uk/) is a bit of a hero for me. His earlier work, [Transcending CSS](https://www.amazon.com/Transcending-CSS-Fine-Art-Design/dp/0321410971), is literally the book that started my career in web development. It is why, to this day, CSS is my comfort zone.
-
-Needless to say, when I heard that he was working on a new book, and it was on a topic that I found _facinating_, I could hardly wait to get my hands on it.
+Needless to say, when I heard that he was working on a new book, and it was on a topic that I found _fascinating_, I could hardly wait to get my hands on it.
 
 ([You can purchase it from Smashing Magazine here.](https://www.smashingmagazine.com/printed-books/art-direction-for-the-web/))
 
@@ -34,9 +44,9 @@ If you can, do purchase the print copy. You'll be glad that you did - given the 
 
 The book basically breaks down into three major parts:
 
-1. Discussing what Art Direction actually _is_, why it matters, and some historical examples of it.
-2. Going into how to approach Art Direction on the web in terms of _design_ - and some of the most significant design elements at your disposal. Specifically there is a focus on grids, typography and imagery.
-3. Lastly, Andy Clarke covers developing for Art Direction, and here he covers CSS Grid, typography techniques, and new image treatment options now available to us in CSS.
+1. Discussing what art direction actually _is_, why it matters, and some historical examples of it.
+2. Going into how to approach art direction on the web in terms of _design_ - and some of the most significant design elements at your disposal. Specifically there is a focus on grids, typography and imagery.
+3. Lastly, Andy Clarke covers developing for art direction, and here he covers CSS Grid, typography techniques, and new image treatment options now available to us in CSS.
 
 All the while, he uses an example set of pages from a site about a fictional app which helps connect would be bank robbers with getaway drivers.
 
@@ -94,18 +104,36 @@ The last large section of the book was devoted to the actual technologies and te
 
 ### Layout techniques
 
-Clarke spends quite a bit of time going over CSS Grid, and for good reason. CSS Grid is one of the most exciting advances in CSS in a long time, and it unlocks so much potential for design. We simply need to _use_ it. Clarke draws a connection between writing a CSS Grid layout in code, and how it produces one of his example layouts.
+Clarke spends quite a bit of time going over [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid), and for good reason. CSS Grid is one of the most exciting advances in CSS in a long time, and it unlocks so much potential for design. We simply need to _use_ it. Clarke draws a connection between writing a CSS Grid layout in code, and how it produces one of his example layouts.
 
-He also covers Flexbox, which still very much has a place in modern CSS layouts, even with the emergence of Grid. He even covers Column layout, which, I agree, is an underutilized technology.
+He also covers Flexbox, which still very much has a place in modern CSS layouts, even with the emergence of Grid.
 
 ### Typography techniques
 
-When it comes to typography
+At this point Clarke dives into typography, and first covers the very under-utilized CSS columns. He also covers various ways of achieving vertical type layout, as well as decorative typography.
 
 ### Picture techniques
 
-This was also one of the more interesting sections of the book for me. I've heard
+This was also one of the most interesting sections of the book for me. Clarke covers a number of techniques that I've heard of before, but haven't really explored. His examples presented actual use cases I could grok, and now understand the power of these ideas. Namely:
 
----
+- `object-fit` and `object-position`
+- CSS shapes - particularly creating shapes from alpha channeled images
+- CSS clipping paths - also, understanding how to do this from an alpha channelled image
 
-Total aside: a big thank you to [Laura Kalbag and her post on creating responsive images in Hugo](https://laurakalbag.com/processing-responsive-images-with-hugo/). I basically copied her code wholesale for use in my site. I have to say that it works quite well!
+What works so wonderfully in this book is how he gives very striking, visual examples that make it clear how interesting the techniques can be.
+
+## One thing I wished for
+
+Overall, this is a great book. Don't get me wrong. But there was one thing I was _really_ hoping Clarke would have touched on, but didn't in this book. This has more to do with _my_ expectation going into the book rather than anything he did wrong as an author.
+
+I was really hoping to have the book get into [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). I think that they have a _huge_ potential to influence art direction as it pertains to the web, and I was anxious to read what Clarke had to say on the subject.
+
+Alas, that was one topic he was not able to get to. Being that the book already clocks in at 300+ pages, I can understand that you have to draw the line _somewhere_. Who knows? Maybe there was material on this that ended up on the editing room floor.
+
+It also gives me a potential topic for a blog post (or series of posts). I've been using them on _this_ site, and have already learned a few things.
+
+## Conclusion
+
+This is another fantastic book from Andy Clarke. You can really tell how passionate he is about the subject, and how excited he is by the recent advances in CSS that allow for more interesting design.
+
+I think this book is definitely for designers, and front end developers, but could also be shared with anyone who has an opinion about how something on the web communicates with it's audience.
