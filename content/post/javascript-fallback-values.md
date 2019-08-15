@@ -61,3 +61,19 @@ const someFunction = (param) => {
 I had gotten used to `const someVar = param || 'fallbackValue';` as a way to deal with undefined values and supplying a default. This works when you're dealing with strings, but it **does not do what you want if you're dealing with booleans**.
 
 Hope that helps you!
+
+## Update!
+
+**Help is on the way!**
+
+There is a proposal to add "Nullish Coalescing" to JavaScript to deal with this exact use case.
+
+You can see [the proposal here](https://github.com/tc39/proposal-nullish-coalescing).
+
+The gist of it is that the following syntax will do what I _thought_ I was doing:
+
+```javascript
+const settingValue = settingFromLocalStorage ?? true;
+```
+
+It has already landed in [Safari Technology Preview](https://webkit.org/blog/9497/release-notes-for-safari-technology-preview-89/), and [there is a babel plugin to support it](https://babeljs.io/docs/en/babel-plugin-syntax-nullish-coalescing-operator).
