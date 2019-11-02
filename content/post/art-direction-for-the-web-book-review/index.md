@@ -21,7 +21,7 @@ custom_properties: [
 Let's start this book review with a warning - I'm not about to be impartial. [Andy Clarke](https://stuffandnonsense.co.uk/) is a bit of a hero for me. His earlier work, [Transcending CSS](https://www.amazon.com/Transcending-CSS-Fine-Art-Design/dp/0321410971), is literally the book that started my career in web development. It is why, to this day, CSS is my comfort zone.
 
 {{< figure class="art-direction-image" figcaption="Art Direction for the Web by Andy Clarke" >}}
-{{<img src="art_direction_for_the_web_cover.jpg" alt="The cover of Art Direction for the Web by Andy Clarke" sizes="100vw, (min-width: 58em) 580px,">}}
+{{<img src="art_direction_for_the_web_cover.jpg" alt="The cover of Art Direction for the Web by Andy Clarke" sizes="100vw, (min-width: 58em) 580px">}}
 {{< /figure >}}
 
 Needless to say, when I heard that he was working on a new book, and it was on a topic that I found _fascinating_, I could hardly wait to get my hands on it.
@@ -37,7 +37,7 @@ I opted to spring for the print edition of the book, and am very happy that I di
 If you can, do purchase the print copy. You'll be glad that you did - given the very visually orientated nature of the content, having the physical book will make understanding the content so much easier.
 
 {{< figure class="art-direction-image" figcaption="A spread on grids from the book" >}}
-{{<img src="art_direction_for_the_web_grid_spread.jpg" alt="The book open to a couple of pages covering grids" sizes="100vw, (min-width: 58em) 580px,">}}
+{{<img src="art_direction_for_the_web_grid_spread.jpg" alt="The book open to a couple of pages covering grids" sizes="100vw, (min-width: 58em) 580px">}}
 {{< /figure >}}
 
 ## Overall Structure
@@ -61,7 +61,7 @@ This is all done to laid the groundwork for Clarke's fundamental premise - that 
 Clarke puts forth that art direction is about understanding how you want to make a visitor/user of your site _feel_, and to think about how that can be expressed in terms of design. By making distinct design choices, you can make your product or site stand out and be memorable.
 
 {{< figure class="art-direction-image" figcaption="A few pages on directing pictures." >}}
-{{<img src="art_direction_for_the_web_pictures.jpg" alt="The book open to a spread discussing art directing images" sizes="100vw, (min-width: 58em) 580px,">}}
+{{<img src="art_direction_for_the_web_pictures.jpg" alt="The book open to a spread discussing art directing images" sizes="100vw, (min-width: 58em) 580px">}}
 {{< /figure >}}
 
 ## Diving into design
@@ -95,7 +95,7 @@ Here Clarke goes into examples of what I think are some of the most interesting 
 I will also mention that I was very happy to see that in his examples, he showed not just a large desktop layout, but also how the same image could be used with intention across multiple breakpoints to maintain it's impact. This is the work of someone who really is considering the medium.
 
 {{< figure class="art-direction-image" figcaption="Developing typography in the name of art direction" >}}
-{{<img src="art_direction_for_the_web_typography.jpg" alt="The book open to two ages covering development of typography" sizes="100vw, (min-width: 58em) 580px,">}}
+{{<img src="art_direction_for_the_web_typography2.jpg" alt="The book open to two ages covering development of typography" sizes="100vw, (min-width: 58em) 580px">}}
 {{< /figure >}}
 
 ## Developing for Art Direction
