@@ -47,7 +47,7 @@ At the time of this writing, Gatsby 2 was the latest version.
 
 ## Updating your Gatsby Config file
 
-The first thing that you will need to do is to update `gatsby-config.js` (found at the root level of your project)so that Gatsby knows to look in both directories.
+The first thing that you will need to do is to update `gatsby-config.js` (found at the root level of your project) so that Gatsby knows to look in both directories.
 
 ```javascript
 module.exports = {
@@ -84,7 +84,7 @@ The `name` can be whatever you want, but I'm guessing that you'll want it to agr
 
 You will now need to update your `gatsby-node.js` file, also found in your project root.
 
-Here is wha the whole thing will look like (I will explain more after):
+Here is what the whole thing will look like (I will explain more after):
 
 ```javascript
 const _ = require("lodash");
