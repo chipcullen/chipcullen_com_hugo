@@ -7,7 +7,7 @@
 
 <div class="home-post-list">
 <h2>Blog Posts</h2>
-{{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
+{{ $paginator := .Paginate .Site.RegularPages.ByDate.Reverse }}
 {{ range $paginator.Pages }}
   {{ if not .Params.hide }}
     {{ .Render "summary" }}
