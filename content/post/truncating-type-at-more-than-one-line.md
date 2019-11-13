@@ -69,6 +69,28 @@ The one thing to note is that [autoprefixer](https://github.com/postcss/autopref
 }
 ```
 
+## Progressive enhancement
+
+You can also set up your truncation with the old method, but use this new method when the browser supports `-webkit-box`:
+
+```css
+.selector {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@supports (display: -webkit-box) {
+  .selector {
+    /* autoprefixer: off */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: normal;
+  }
+}
+```
+
 Further reading:
 
 - [MDN article on `-webkit-line-clamp`](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp#Example)
