@@ -32,7 +32,7 @@ There are various situations where you may or may _not_ want to share that infor
 
  As of Django 3.0, the framework allows you to set this policy.
 
- ## What changed in Django 3.0?
+## What changed in Django 3.0?
 
 [Django 3.0 added a new setting](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-SECURE_REFERRER_POLICY) - `SECURE_REFERRER_POLICY`. However, it defaulted to `None` initially.
 
@@ -41,7 +41,7 @@ With that set to `None`, or in it's absence otherwise (which was the case in Dja
 Browsers then, when they get a response in this situation, default to the policy  `no-referrer-when-downgrade` - more on what _that_ means in a minute.
 
 
- ## What changed in Django 3.1, then?
+## What changed in Django 3.1, then?
 
 **In Django 3.1  `SECURE_REFERRER_POLICY` got *a new default* - `same-origin`.** [See the note here](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-SECURE_REFERRER_POLICY).
 
