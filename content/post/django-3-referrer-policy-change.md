@@ -8,7 +8,7 @@ tags: ["django"]
 custom_properties: []
 ---
 
-## TLDR:
+## TL;DR:
 
 If you have a Django application, and you've upgraded to 3.1 or later, and you make extensive use of iframes or the `referrer` attribute in some way, you will want to think about setting `SECURE_REFERRER_POLICY` so that you aren't blindly walking into the new default of `same-origin`.
 
