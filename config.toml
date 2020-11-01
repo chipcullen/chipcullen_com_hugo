@@ -51,3 +51,8 @@ paginate = 7
 	shareStr = "Share"
 	pageNotFoundTitle = "404 - Page not found"
 	useSummaryIfNoDescription = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -2,6 +2,7 @@
 <nav class="footer-nav">
   <ul class="footer-nav__list">
     <li><a href="{{ "/" | relURL }}">Home</a></li>
+    <li><a href="{{ "/about" | relURL }}">About</a></li>
     <li><a href="{{ "/styleguide" | relURL }}">Styleguide</a></li>
       {{ with .Site.Params.twitter }}
       <li><a href="//twitter.com/{{ . }}" target="_blank" rel="noreferrer" title="Twitter"> Twitter</a></li>
@@ -18,8 +19,8 @@
       {{ with .Site.Params.github }}
       <li><a href="//github.com/{{ . }}" target="_blank" rel="noreferrer" title="GitHub">GitHub</a></li>
       {{ end }}
-      {{ with .RSSLink }}
-      <li><a href="{{ . }}" target="_blank" title="RSS">RSS</a></li>
+      {{ with .OutputFormats.Get "RSS" }}
+      <li><a href="{{ .RelPermalink }}" target="_blank" title="RSS">RSS</a></li>
       {{ end }}
   </ul>
 </nav>
