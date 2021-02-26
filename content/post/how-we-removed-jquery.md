@@ -66,6 +66,7 @@ I'm not gonna lie - this was drudge work.
 
 For a lot of this, the site [youmightnotneedjquery.com](http://youmightnotneedjquery.com/) was invaluable (though it isn't HTTPS).
 
+One cool thing I learned: jQuery's `.closest` method has a [drop-in equivalent in plain JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest).
 ### 4. Bonus: trying for typescript conversion
 
 All along we were also trying to migrate as many files as we could to [TypeScript](https://www.typescriptlang.org/). All of our new files are authored in TypeScript, so this was a chance to update old ones. Our success here was mixed - sometimes we could do the conversion easily. Other times the file was so complex that we didn't want to attempt it.
