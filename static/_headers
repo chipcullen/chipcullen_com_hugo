@@ -5,6 +5,6 @@
   Cache-Control: max-age=31536000, immutable
 
 # a path:
-/test/index.html
+/test/*
   # headers for that path:
-  Referrer-Policy: no-referrer-when-downgrade
+  Referrer-Policy: "no-referrer-when-downgrade"
