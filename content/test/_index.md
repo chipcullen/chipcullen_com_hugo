@@ -33,6 +33,8 @@ layout: "page"
 <iframe id="partnerPlayer" marginwidth="0" marginheight="0" scrolling="no" src="https://player-staging.pbs.org/partnerplayer/5czL0C0cle1vmic6A2Du5A==/?topbar=false&amp;end=0&amp;endscreen=true&amp;start=0&amp;autoplay=false&amp;callsign=weta" allowfullscreen="" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-storage-access-by-user-activation" width="100%" height="100%" frameborder="0"  referrerpolicy="no-referrer-when-downgrade"></iframe>
 ```
 
+<a href="https://www.pbs.org/?returnURL=https%3A%2F%2Fchipcullen.com/test&showSignIn=true">Log in link</a>
+
 ### with parentURL - not what we want
 
 <div class="player-wrapper">
