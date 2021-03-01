@@ -3,3 +3,8 @@
 
 /*.css
   Cache-Control: max-age=31536000, immutable
+
+# a path:
+/test/index.html
+  # headers for that path:
+  Referrer-Policy: no-referrer-when-downgrade
