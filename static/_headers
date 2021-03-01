@@ -7,4 +7,4 @@
 # a path:
 /test/*
   # headers for that path:
-  Referrer-Policy: "no-referrer-when-downgrade"
+  Referrer-Policy: 'no-referrer-when-downgrade'
