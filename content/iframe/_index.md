@@ -9,4 +9,6 @@ layout: "page"
 
 <script>
   console.log('coming from the iframe');
+  console.log(`the document referrer is ${document.referrer}`);
+  document.cookie="c_is_for==cookies";
   </script>
