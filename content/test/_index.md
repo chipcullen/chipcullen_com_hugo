@@ -57,3 +57,15 @@ layout: "page"
 
 
 <iframe id="" marginwidth="0" marginheight="0" scrolling="no" src="https://chipcullen.com/iframe/" allowfullscreen="" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-top-navigation" width="100%" height="100%" frameborder="0" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<script>
+  var getCookie = function (name) {
+    var value = "; " + document.cookie;
+    var parts = value.split("; " + name + "=");
+    if (parts.length == 2) return parts.pop().split(";").shift();
+  };
+
+// Example
+var cookieVal = getCookie('c_is_for'); // returns "turkey"
+console.log(`From the parent page, the value of "c_is_for" is ${cookieVal}`);
+  </script>
