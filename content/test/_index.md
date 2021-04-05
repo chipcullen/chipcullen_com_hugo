@@ -8,9 +8,9 @@ layout: "page"
 <style>
 .player-wrapper {
   position: relative;
-  padding-bottom: 55%;
+  padding-bottom: 56.4%;
   height: 0;
-  width: 500px;
+  width: 100%;
 }
 
 .player-wrapper iframe {
