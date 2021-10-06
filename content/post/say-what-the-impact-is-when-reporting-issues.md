@@ -1,5 +1,5 @@
 ---
-title: "Say What the Impact Is When Reporting Issues"
+title: "Say What the Impact is when Reporting Issues"
 date: 2021-10-05T21:53:02-04:00
 draft: false
 slug: "say-what-the-impact-is-when-reporting-issues"
