@@ -46,7 +46,7 @@ When you consciously observe how many decisions you need to make every day, you'
 
 There is a spectrum between cutting down needless decisions and shirking responsibility. So, tread carefully but intentionally here.
 
-# How often are you having to make certain decisions?
+## How often are you having to make certain decisions?
 
 You need to choose what you're going to wear every day. You decide what to eat several times a day. You have to decide on what to work on every day.
 
