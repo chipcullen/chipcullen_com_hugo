@@ -10,7 +10,7 @@ custom_properties: []
 
 ## Intro
 
-I've seen a lot of chatter lately about how some new CSS functions - `min()`, `max()` and `clamp()` are actually well supported. Even Safari supports `clamp()` in the as of 13.1.
+I've seen a lot of chatter lately about how some new CSS functions - `min()`, `max()` and `clamp()` are actually well supported. Even Safari supports `clamp()` as of 13.1.
 
 ## Intended audience
 
