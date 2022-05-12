@@ -34,8 +34,6 @@ I don't know why this was not immediately apparent to me. It just ... wasn't.
 <link rel="stylesheet" href="./style.css">
 ```
 
-The `<link rel="preload">` is a _hint_ to the browser that this asset is important to the page you're on*, and should be downloaded early on.
+The `<link rel="preload">` is a _hint_ to the browser that this asset is important to the page you're on, and should be downloaded early on.
 
 You *only* want to use it for critical assets that affect the early rendering of your page.
-
-* As opposed to `rel=preconnect` which is a hint that an asset will be needed on another page.
