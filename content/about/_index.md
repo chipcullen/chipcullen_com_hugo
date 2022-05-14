@@ -32,6 +32,7 @@ I lead a small team responsible for a wide range of products, built using web-ba
 ## Side Projects
 
 - [Color Rosetta](https://colorosetta.com/)
+- [Color Rosetta - the VS Code Extension!](https://marketplace.visualstudio.com/items?itemName=chipcullen.colorosetta)
 - [The Contrast Triangle](https://contrast-triangle.com/)
 -  [Jams vs. Jellies](https://jamsvsjellies.info/)
 
