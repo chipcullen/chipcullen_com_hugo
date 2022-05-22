@@ -5,7 +5,11 @@ draft: false
 slug: "using-css-custom-properties-and-logical-properties-together"
 description: "How to combine custom properties and logical properties for layout super powers."
 tags: ["CSS"]
-custom_properties: []
+custom_properties: [
+  "--background-color-header: var(--green-bright);",
+  "--color-drop-cap: var(--grey-dark);",
+  "--font-weight-drop-cap: 500;"
+  ]
 ---
 
 Let's say you have a large website, with lots of views, with lots of components. And the designs for these components have spacing that shifts across breakpoints. It would be very easy for components over time to 'drift' and not line up with their neighbors. How can you wrangle that?
