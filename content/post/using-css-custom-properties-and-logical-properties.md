@@ -1,5 +1,5 @@
 ---
-title: "Using CSS Custom Properties and Logical Properties Togehter"
+title: "Using CSS Custom Properties and Logical Properties Together"
 date: 2022-05-22T06:48:14-04:00
 draft: false
 slug: "using-css-custom-properties-and-logical-properties-together"
