@@ -2,9 +2,11 @@
     {{ partial "head.html" . }}
     <body>
         {{ partial "header.html" . }}
+        <turbo-frame id="main-content"  data-turbo-action="advance"  target="_top">
         <main id="content">
         {{- block "main" . }}{{- end }}
         </main>
+        </turbo-frame>
         {{- partial "footer.html" . -}}
 
         {{ template "_internal/google_analytics.html" . }}

@@ -1,7 +1,13 @@
 .header {
   padding: 0 10vw;
   background-color: var(--background-color-header);
+  // background-color: transparent !important;
   font-weight: 700;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 3;
 
   h1 {
     margin-bottom: 0;
@@ -10,7 +16,7 @@
     font-weight: 700;
 
     @media (min-width: 900px) {
-      font-size: 7.2rem;
+      font-size: 6.2rem;
       font-weight: 500;
     }
   }

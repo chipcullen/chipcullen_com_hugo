@@ -2,6 +2,7 @@ body {
   width: 100%;
   height: 100%;
   display: grid;
+  padding-top: 15vw;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
   font-family: "Source Serif 4", serif;
@@ -11,3 +12,18 @@ body {
   color: var(--color-text);
   background-color: var(--background-color-page);
 }
+
+main {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .3s;
+
+  .navigating & {
+    opacity: 0;
+  }
+
+  .rendered & {
+    opacity: 1;
+  }
+}
+

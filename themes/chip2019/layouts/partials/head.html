@@ -73,5 +73,35 @@
   </style>
   {{ end }}
 
+  <script type="module">
+  import hotwiredTurbo from 'https://cdn.skypack.dev/@hotwired/turbo';
+
+  document.addEventListener('turbo:before-render', async (event) => {
+  event.preventDefault()
+  console.log('before-render');
+
+  const html = document.documentElement;
+
+  html.classList.remove('rendered');
+  html.classList.add('navigating');
+
+  setTimeout(() => {
+    event.detail.resume();
+  }, 150)
+
+  })
+  document.addEventListener('turbo:visit', async (event) => {
+  event.preventDefault()
+
+  })
+  document.addEventListener('turbo:render', async (event) => {
+  event.preventDefault()
+  console.log('turbo:render');
+  const html = document.documentElement;
+  html.classList.remove('navigating');
+  html.classList.add('rendered');
+  // event.detail.resume()
+  })
+</script>
 
 </head>
